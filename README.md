@@ -12,7 +12,7 @@ The purpose of this project is to:
 This project will be completed in groups of 2-3. Groups will add an additional set of complexities to this task, as developing software collaboratively requires coordinating schedules for meetings, negotiating product vision, developing and being disciplined about your Git workflow, among many other things. This, in fact, is the point. These are all thing that you will encounter on the job so we may as well begin preparing now! 😊
 
 Teams
----
+---|---
 Mark | Stephanie
 Carmen | Paul
 Kirk | Peter
