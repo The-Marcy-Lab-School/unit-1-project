@@ -14,8 +14,7 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 |Team Member #1 | Team Member #2 | Team Member #3|
 |---|---|---|
 |Mark | Stephanie| |
-|Carmen | Paul| |
-|Kirk | Peter| |
+|Carmen | Paul| Peter|
 |Laisha | Anne| |
 |Devonte | Enmanuel | Cielo|
 
