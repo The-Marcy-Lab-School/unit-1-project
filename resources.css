@@ -28,3 +28,11 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
+.nav-item a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
