@@ -1,5 +1,5 @@
 # Unit 1 Project: HTML/CSS Foundations
-## Community Outreach and Consulting
+## Raising Awareness on the Web
 
 ### Purpose
 The purpose of this project is to:
@@ -12,10 +12,10 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 
 |Team Member #1 | Team Member #2 | Team Member #3|
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| Jarrit| Olivia | Jason |
+| Shemar | Itzel | Jeff |
+| Asif| Segun | Ricardo |
+| Rabia | Gracey | Andrea |
 | | | |
 | | | |
 
