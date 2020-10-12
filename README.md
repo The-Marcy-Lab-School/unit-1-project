@@ -1,5 +1,5 @@
 # Unit 1 Project: HTML/CSS Foundations
-## Community Outreach and Consulting
+## Raising Awareness on the Web
 
 ### Purpose
 The purpose of this project is to:
