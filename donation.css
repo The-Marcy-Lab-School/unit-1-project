@@ -40,7 +40,7 @@ nav {
     color:black;
     text-align:center;
     font-weight:bold;
-    min-width:460px;
+    min-width:450px;
     min-height:182px;
 }
 .images{
@@ -50,11 +50,12 @@ nav {
 .images .image1{
     display:flex;
     align-self:center;
-    width:45%;
-    height:50%;
+    width:43%;
+    height:60%;
+    
     /*display: block;
     margin-left: auto;
-    margin-right: auto;
+    
     width: 50%;*/
 }
 .images .image2{
@@ -62,7 +63,9 @@ nav {
    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 42%;
+    
+    
 }
 footer{
     text-align:right;
@@ -70,6 +73,13 @@ footer{
 @media screen and (min-width: 600px){
     .images{
     flex-direction:row;
+    }
+    .image1{
+        margin-left: auto;
+    }
+    .image2{
+        max-height:430px;
+        margin-bottom:4px;
     }
     
 }
