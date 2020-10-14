@@ -14,15 +14,17 @@
                 <div class="block fixed round">RESOURCES</div>
             </div>
             <nav class="nav nav-pills">
-                <div class="nav-item"><a href="homepage.html" class="nav-link active">Home</a></div>
-                <div class="nav-item"><a href="resources.html" class="nav-link">Resources</a></div>
+                <div class="nav-item"><a href="homepage.html" class="nav-link">Home</a></div>
+                <div class="nav-item"><a href="resources.html" class="nav-link active">Resources</a></div>
                 <div class="nav-item"><a href="history.html" class="nav-link">History</a></div>
                 <div class="nav-item"><a href="donationpage.html" class="nav-link">Donate</a></div>
             </nav>
         </header>
         <main>
+         
             <section class="resource-section">
                 <span class="carousel-title">LAWYERS</span>
+                <!--MOBILE VIEW-->
                 <div id="lawyers" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
                     <ol class="carousel-indicators">
                         <li data-target="#lawyers" data-slide-to="0" class="active"></li>
@@ -45,8 +47,10 @@
                                         </div>
                                         <div class="contact-type">
                                             <strong>Addresses:</strong>
-                                            <a href="https://goo.gl/maps/FmhdRkce4KqkY6YA9">Brooklyn</p>
-                                            <a href="https://goo.gl/maps/fs3r29AdrcmKY14XA">Queens</p>
+                                            <div style="width:40%;">
+                                                <a href="https://goo.gl/maps/FmhdRkce4KqkY6YA9">Brooklyn</a>
+                                                <a href="https://goo.gl/maps/fs3r29AdrcmKY14XA">Queens</a>
+                                            </div>
                                         </div>
                                         <div class="contact-type">
                                             <div><strong>Website:</strong> <a href="https://catholicmigration.org/">catholicmigration.org</a></div>
@@ -56,8 +60,8 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="carousel-item">
-                        <div class="card">
+                        <div class="carousel-item">
+                            <div class="card">
                                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Legal_Aid_Society_logo.svg/1200px-The_Legal_Aid_Society_logo.svg.png" style="padding:5%;" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">THE LEGAL AID SOCIETY</h5>
@@ -78,11 +82,11 @@
                                         </div>
                                     </div>
                                 <a href=".multi-law" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                         <div class="card">
+                        <div class="carousel-item">
+                            <div class="card">
                                 <img src="https://images.squarespace-cdn.com/content/573e0444b654f98766046721/1463682983545-3O4R5LT93MLEZZSTB5LX/TopLogo.png?content-type=image%2Fpng" style="padding:5%;" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">IMMIGRANT COMMUNITY LAW CENTER (ICLC)</h5>
@@ -103,24 +107,102 @@
                                         </div>
                                     </div>
                                 <a href=".multi-law" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                                </div>
                             </div>
                         </div>
+                        <a class="carousel-control-prev" href="#lawyers" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#lawyers" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <a class="carousel-control-prev" href="#lawyers" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#lawyers" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
+                <!--DESKTOP VIEW-->
+                <article style="display:none;" class="desktop-card-scroll">
+                    <div class="card">
+                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/QJ2DEeZRgdab1ZqHp4iISQ/l.jpg" style="padding:5%;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CATHOLIC MIGRATION SERVICES</h5>
+                            <p class="card-text">
+                                "Catholic Migration Services is focused on "welcoming the stranger in our midst," by being committed to empowering underserved immigrant communities regardless of religion or ethnicity. We provide high quality legal services, education, and advocacy to immigrants to advance equality and social justice in a changing and diverse population." <i style="align-self:flex-end;">- Catholic Migration Services</i>
+                            </p>
+                            <div class="collapse multi-law" id="law1">
+                                <div class="contact-type">
+                                    <strong>Phone:</strong>
+                                    <p>(718) 236-3000 (Brooklyn) / (347) 472-3500 (Queens)</p>
+                                </div>
+                                <div class="contact-type">
+                                    <strong>Addresses:</strong>
+                                    <div style="width:40%;">
+                                        <a href="https://goo.gl/maps/FmhdRkce4KqkY6YA9">Brooklyn</a>
+                                        <a href="https://goo.gl/maps/fs3r29AdrcmKY14XA">Queens</a>
+                                    </div>
+                                </div>
+                                <div class="contact-type">
+                                    <div><strong>Website:</strong> <a href="https://catholicmigration.org/">catholicmigration.org</a></div>
+                                </div>
+                            </div>
+                            <a href=".multi-law" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                        </div>
+                        </div>
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Legal_Aid_Society_logo.svg/1200px-The_Legal_Aid_Society_logo.svg.png" style="padding:5%;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">THE LEGAL AID SOCIETY</h5>
+                            <p class="card-text">
+                                "Every day, in every borough, The Legal Aid Society works in courtrooms and communities to deliver justice to New Yorkers. Our direct representation of thousands of individuals every year informs our impact litigation efforts and policy advocacy providing us with a powerful perspective from which to begin dismantling the systemic barriers that keep our clients from thriving." <i style="align-self:flex-end;">- The Legal Aid Society</i>
+                            </p>
+                            <div class="collapse multi-law" id="law2">
+                                <div class="contact-type">
+                                    <strong>Phone:</strong>
+                                    <p>(212)-577-3300</p>
+                                </div>
+                                <div class="contact-type">
+                                    <strong>Addresses:</strong>
+                                    <a href="https://www.google.com/maps/search/the+legal+aid+society+inc/@40.7453833,-73.9050457,12z">Offices in all 5 boroughs</a>
+                                </div>
+                                <div class="contact-type">
+                                    <div><strong>Website:</strong> <a href="https://www.legalaidnyc.org/">legalaidnyc.org</a></div>
+                                </div>
+                            </div>
+                        <a href=".multi-law" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://images.squarespace-cdn.com/content/573e0444b654f98766046721/1463682983545-3O4R5LT93MLEZZSTB5LX/TopLogo.png?content-type=image%2Fpng" style="padding:5%;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">IMMIGRANT COMMUNITY LAW CENTER (ICLC)</h5>
+                            <p class="card-text">
+                                "Immigrant Community Law Center (ICLC) was founded by African Services Committee in 2012 to provide high-quality, affordable, and trustworthy immigration legal representation.  ICLC is staffed by a dedicated and culturally competent multi-lingual team of qualified attorneys, Department of Justice Accredited Representatives, and paralegals.  ICLC serves all immigrants of all backgrounds." <i style="align-self:flex-end;">- ICLC</i>
+                            </p>
+                            <div class="collapse multi-law" id="law3">
+                                <div class="contact-type">
+                                    <strong>Phone:</strong>
+                                    <p>(212) 222-3882</p>
+                                </div>
+                                <div class="contact-type">
+                                    <strong>Addresses:</strong>
+                                    <a href="https://goo.gl/maps/XsWZEwTJhQ6hrWdr6">429 W 127th St f2, New York, NY 10027</a>
+                                </div>
+                                <div class="contact-type">
+                                    <div><strong>Website:</strong> <a href="http://immigrantcommunitylaw.org/">immigrantcommunitylaw.org</a></div>
+                                </div>
+                            </div>
+                        <a href=".multi-law" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                        </div>
+                    </div>
+                </article>
                 <span class="carousel-title">ORGANIZATIONS</span>
+                <!--MOBILE VIEW-->
                 <div id="orgs" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
                     <ol class="carousel-indicators">
                         <li data-target="#orgs" data-slide-to="0" class="active"></li>
                         <li data-target="#orgs" data-slide-to="1"></li>
                         <li data-target="#orgs" data-slide-to="2"></li>
+                        <li data-target="#orgs" data-slide-to="3"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -138,11 +220,13 @@
                                         </div>
                                         <div class="contact-type">
                                             <strong>Addresses:</strong>
-                                            <a href="https://goo.gl/maps/9KvnfniY1ez3Ktkb6">Brooklyn</a>
-                                            <a href="https://goo.gl/maps/k4wzZ6t5RDdS8F1n8">Queens</a>
-                                            <a href="https://goo.gl/maps/CMJfP6Q7CTuNYXjj7">Staten Island</a>
-                                            <a href="https://goo.gl/maps/K67x8oNC5tcvuQFR9">Long Island</a>
-                                            <a href="https://goo.gl/maps/WyV7ijHRtEhJQWaN9">Westchester</a>
+                                            <div>
+                                                <a href="https://goo.gl/maps/9KvnfniY1ez3Ktkb6">Brooklyn</a>
+                                                <a href="https://goo.gl/maps/k4wzZ6t5RDdS8F1n8">Queens</a>
+                                                <a href="https://goo.gl/maps/CMJfP6Q7CTuNYXjj7">Staten Island</a>
+                                                <a href="https://goo.gl/maps/K67x8oNC5tcvuQFR9">Long Island</a>
+                                                <a href="https://goo.gl/maps/WyV7ijHRtEhJQWaN9">Westchester</a>
+                                            </div>
                                         </div>
                                         <div class="contact-type">
                                             <div><strong>Website:</strong> <a href="https://maketheroadny.org/contact/">maketheroadny.org</a></div>
@@ -152,8 +236,8 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="carousel-item">
-                        <div class="card">
+                        <div class="carousel-item">
+                            <div class="card">
                                 <img src="https://aws.cause.clickandpledge.com/accounts/60175/connect/images/637136405452029386_NYIC_Logo_(1).png" style="padding:5%;" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">NEW YORK IMMIGRATION COALITION</h5>
@@ -173,17 +257,17 @@
                                             <div><strong>Website:</strong> <a href="https://www.nyic.org/">nyic.org</a></div>
                                         </div>
                                     </div>
-                                <a href=".multi-org" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                                    <a href=".multi-org" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                         <div class="card">
+                        <div class="carousel-item">
+                            <div class="card">
                                 <img src="https://www.guidestar.org/ViewEdoc.aspx?eDocId=5893169&approved=True" style="padding:5%;" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">BROOKLYN COMMUNITY FOUNDATION</h5>
                                     <p class="card-text">
-                                        "We are committed to helping Brooklyn’s communities move from fear to strength, from trauma to healing, from division to wholeness, and from uncertainty to action. Brooklyn Community Foundation established the Immigrant Rights Fund in late 2016 in response to mounting uncertainty and fear within Brooklyn’s immigrant communities..." <i style="align-self:flex-end;">- Brooklyn Community Foundation</i>
+                                        "We are committed to helping Brooklyn's communities move from fear to strength, from trauma to healing, from division to wholeness, and from uncertainty to action. Brooklyn Community Foundation established the Immigrant Rights Fund in late 2016 in response to mounting uncertainty and fear within Brooklyn's immigrant communities..." <i style="align-self:flex-end;">- Brooklyn Community Foundation</i>
                                     </p>
                                     <div class="collapse multi-org" id="org3">
                                         <div class="contact-type">
@@ -198,19 +282,146 @@
                                             <div><strong>Website:</strong> <a href="http://immigrantcommunitylaw.org/">immigrantcommunitylaw.org</a></div>
                                         </div>
                                     </div>
-                                <a href=".multi-org" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                                    <a href=".multi-org" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                                </div>
                             </div>
                         </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOMAAADeCAMAAAD4tEcNAAAAkFBMVEX///8AAAD+/v79/f38/PysrKz5+fm6urrLy8vQ0NDn5+fk5OSZmZn09PTa2trw8PCHh4exsbGSkpKzs7Pd3d3CwsKXl5ehoaGBgYGmpqbGxsZ4eHhycnKfn5+KiorU1NRFRUUZGRliYmJVVVVubm5lZWUpKSkiIiJMTEw2NjYSEhI+Pj4NDQ1TU1MzMzMYGBiCJyfbAAAgAElEQVR4nO09CXujuq62AUMgQMKSsISQZm/TZv7/v3uSzA5pMzOdc+Z+7+i9O6dJWCxb1i6Zsf/gP/hJEP/2AP4sCKHpQhdM0wBRocMHof/bY/oPngCBlNkQp1POwvk2Acg3Of5nEazj0vObq7X/OUIWmoaUKJgbzYJgxz+BY1BEEd0ktX930L8AbpRu7z8+Q6+F821l+v8jKAKBIk9holwf3ntYXC7nQzCfzwsC+CO5Xi4vvUvupyXRrhDwmL+XcnUJ/9jLU48YF6HnudPXO2U5XxzUdTQn9zyGR2i69jcvqjN/bSlwY8yqsWogM+D/OhfCSul6tVp2Nj+2k7IP/dFj/wIAAkUmY6f3eqAfQawQQP5KlKcNyU8g4AUKdd883ho0TVx47W+SoLBEksn4o957m/gXVgKnwDcONZqb2d+lF8FY7KDiMeeg1HEJfn4NdF2HFfXjvHrSzZB/YKy/AJrAXVbuq9lfePil+LUlIIrGP7J6d279v4FicQRxtY8OcTXG3wffqHb2MfquR/4OxPeKRn1Utr9l0knIlrkSKAfvOx75iwNBIabFZ8LwNfwaOakLqXdoGPbs5zf5c7Uz9xG87F/ZmzjCUrHSj0wy7ctBSGlLvSE8H6//lAzhWt240Frm9r9DsTqzFWv4mBGRfskbNJvPWXPRgh9QPHz2Ag2VhPBCL1l9x5B/DpB05orDW1O/a6JesQ51pvylo4e6b5z7pB7YmTJSHkBK73mLkXL+SYmpsxnN7zkk8TG+ADDMNkBlN7v97rDjy+aDZKDVbmgK7BW/7PMHbwLykGo29zb7p3Ck10hFpmtUOsdaGl6U8Y0n3ZCvm+8kd/m9WS6dHQzOS/U52LmoGan56E8ZWKKC+dXrtH9G9xFgFDCLXnlyH3ACUAu2XLF87958a57Yhses8uNoksNFN9ygguUGjX39urZx5ZQi24PZK/Keq8P+Cf4KQ9Rz0kot9sAEgi8DQFHqyDec5us8ZB7f1VxHBxzlCw/pw87EeWG6y/lu4WpjwgBiSYnDpn8ApQGg5ubRTtzii3v7o/lbh3VeqPWC3aTsCvjfBdbowMuas872TGScS1wz7qq7PX5gnoSFdKP+e3HP26SvHzRUEf4kxUrJVjifl5HyAcKj5qWCXStKJS8jTYSmRW+uV674vqZvI4F/jjxngBOvHrLgprrtekYaEIMpNGiLWOwr5eH3QHdJ+87ZxFvsxth3+VvH8PeRXDVWvFyv++SV1yu0QHR8jrORnaunn2FZEbMT390txnrvwPW2yf0V/EE9XQrmnWER32N0vDVfa/i3XIG420i1SB5/QdYARqXuFR8XFBiC3UmQZjA/anVuJf5r8CtxI5qGElaZzJgPnzl7VFTRfaDVOKqNjlLE/VMOH9hgMUl9vzfBqErK9CNzyhv/UOOPOKe102eXzQewUgQfBD6O9s7V7dodpYVkO26wfKEer0gVOQ76Lp3NtYR57fE1gSwdtoo9RUjfAltEMekoMQS6vyCK04DwiBA1xknYkxUieUJXZa+MRmsAt0Is/Df8VmoO5+4+VqhdOJE4LB6qNBrzL7uyj4wuNZcsuYz9ARw13CUAMRu4tIXcWAFoLCAqQCgqHnoAwUc8A9Dac3JO5UCjOlIY56RglxzdbwJVwgORra4hqapH6qj/Mh9lVNyLi+Cm1BY4jvCR5PodHF20Mcb8VMmIF47SeXshEQ32COcFyUf48chtXdgZvxjoJbYO/H7/YCaYZKZNrEPCn4g06g1h9UxcRBepppAjooTPqeI8325v+ehTvMmxLoV0BRS4AbviJSIcYegBr1VTIGBHE0WQpoWNJOq7ui513fetuYH0Bpov4Chwa75xvxY+Skedg66q64PV0kF+lbgpj9+r8+iwfVD+yo6kJxuZCAYISF64M+MviU02PPyvQDeFJiQgLyf02eoRyoNz3JPE84BUiQxAt1iDSrNy+9ppw0qBOLw3QPKA1P59SPoVt+nhrf6jKHINmo8B1DxXP0jm0665BM4Xwgz2nr+EqYr9EzeU9soK1KNc9tCUgif6yHkO38ldbaSN1eCJ9vp0OCWeeql852hOvaMay1hHE9FGxNYHIHWJXo94j4Yw3mXAGiY+6lT9G1uE4XoJuhQi+W1go19l3v0GWMLpnicfJJAFUtgcmYBAm+tgzctfes3stGeuAZsi77ugYRJAd+D+YFUPRK7694T0CMWiv8Pt1wxficzvVaI/FUwGF5gJM0FjTx+EcD4FVN99FoLlgS6qLj665ubvoA8NKfdD7cnvwJH24pxEQQMStBQS08ji0ITXBC0kWu2R/ksOJhD8UgOVqbilbGDwly+BBZM8wFGyDyLX39bqYKe9wHT1CBVQS+Lqb1g4FOrwnYSF1IZBOLSoG2+WG82ymCCbOTVV6FIMhUNxISvRjxBTHVU8i+V8ViHT9ergntz8NrlqoFAiil1CBTbKWcVJ4H1H1EhhTy74+y4b3K74fWSt8zpa0MLllIezMVXjWq5f1rM5XxL2zo8cXo4WSYVa14T+IGVA/s5Swr2n8VM0Zu5r0YGyCgxi+K9/Pnldc0iNxJ8FVSjqfNjnqzQ0AYw02Oyvb+r7vIiEelf1DhCPTARo8rs6qXpHCYz9VD/abLk7vByNrd/yDcAzEvTbjIRQeutuuXuCl167zBSYO4zYWV/JUNmnpu2OHiLdKFxd0c/+fjJ9xvoJO77JfB0MxrvNjIuzrBARoEG1mxWUD/9d6bS/4bGDzcavcvSANW+3AFj9K6JVprdEhAjOUUzfg4y8bZSc0icGpdsLO0xekHcse3wbFyt+LXiCxotzu1SmNZroRecqjTk4i7/qRkcVf4bbRh+aMQI4fMpqViHYDv3dUq+kNJmy0kAi2oe1N5EM3FEgWau9GdEateGjVc0GIwMSVvHM8S/JQDCpW2zQgq/zJohQj/GH+4vLCPoYTnA0+kHTI/7uN8LE590fUYG1kcJVvPtpsBHNH2u3CrVWsEGGDg/krYtZsI+iu+3JCtn/ogRRG9oakwHIghuaetWLFoM9PwMmc5m7yHOf1iYJrwjtxa3NWmGik1sZ0TDbtwu745hGJrsltvjzAIKNLUj2j8epoeeF7yovv/FRzyFR3gzYzDWjkQnx9OwC0eGml8WFNLlaomLyBz7ig9duWni3f+egvdeEjtkW119zDOikItaG+RhCnDvHdaP9wa20KeQOEYia/exXA2lolpmAQeC2A9Y1f2v/eG8UAGFf+FHcl61lKVCPxM3zswBWLAaLHlmhOrNUcBV9Do3AcmEf7spfjyajD17X0YtqNN9J8pRtK6Rha76BcazLeyHrvApNFxZHffZn3yZpM5aPiA3JpFxuTa/+gKQGa3uJ6y9+EUh9m4NMdVjlGUOWfDggaaAQtNH+R3cWzm6VASQEuSQNNtQKv0ISudVKfKIlaYNP6N8tvsNbBsvjbmDpZK1dAa4BLixMvIOWOjpcgnPUiZdpGm5J5yffDlYx34Hu+HhmQEh0NcclbETniYj51wBWqMasC7/XYWbcDJIeHCGKOmquBwwJNoPTNBzv7Wf4AAwdlUynVSGlmDDna3YKv+DEI3v/Fvc1PUNLkCxq6QNfweMdkhH1K6RfZVkShGTjjoN6j0CjO9LW2NCV53oa0N104Vf7sf/lFwDoMnvjJ7dFIkmWKMo6SCzM7sIdSKd7GkchkVJFaxXrG2Os7jQ/olZbgAH5rZEWIE7/wN+aULtAT1bKOrqzYNzvoOQrg/npad7QnLQgUFDkptKuwaZotym6N3KUwARaWXoD+Mq2E5o7vMXzFHsldhnW1KQDkqzzXmBEXSeATpE782m2U4K42fYGsuRHjKyetxaJ2lYTBSP/xC+1O8kaGcK9qZoCbeomSiBDMQuisdLbcNfnrdjUyQS5LZovYN0x4es5WoLhgnb83o9NsV0IxsEOzdpr6kX3dh/4oLrqtdQ/joe7/CJNQSNv6gC2FByg4NUFZxufAFSqF42tw2Zn1CbzZgvp5HDvO2UegiSGE/dGpgsfFgSU9PWK1JvKHEaf/gtoVpXbA8P5/KWFywvMyekLP6+OM/r20oWefuWfWxdAM0QKNiQjjxzq9P5Umsn4pT84/+h7xmBCw1fYHhhms01uVBMgNf8Hes9lNTlzlKldsOmln5MPyDzet8LOXV2OyftYa/avuApyiDrOcf5lEg/ODNKO1zeLsHBovyrPpBR4e/UYmC9QHoMmH5e4cYg+RBLPqGCDDQZz8Mk7BdH3npK18f8EJlWAinVmtSIF/5IhVz8Etz7s0qvPRhIbudA7j77akqB24mRsxr8AIZ5dF5c0Uxo+vALoaNvBoKBtTBEzmgRd+UqcT94pNdxEnqRpUjOHKRDAIGXLkOUOyLVS61iYyASjBhMaFbyaNsdX2o5G6q09HpZk8TtxglpCwWy88kXHTe1W9oKXGqZjGkaKo7gNyXcwLI1GJYWbGuuoTI00EjSES8fbiaHjKicQ1mjF+Q+LZNYYR/IJfJXvSgo9jpw+YY4F/b96QL6nIhXlbwFhu6f8jmq6SZi9ob94GxuLeG6kMUYgPaKKaWrFRyvtRLI0No6paa6zABMMOIqMVhtl7hljWpoy3a9vvuK5TJuZJiUeaPXzxAUpX/+U7UiaCbvSFpRLT9aMUYIgcOxqPjWW4AI045A+iWDJZtm29Mx5Ua5SH4SWQXxg8p2wFHvYQCHyrjQoPcNceUGWVeK854ZyXyhIT4OyL6iFSF0ulKBZd5laqJjJpzgKGlI1D6A0RpdFWa+VmPHFW70ZYTLuHR0WXTwYYJEiKcLC9KS5sA5oI5DO9DG9Jd2rGqJg27TYmhazgtkmRyXmPoy7VakitAxLUwdqQqfjubDKLDm3eoZEoXD6QnwYSrOtB+7wW5K4OIGYhwBLVxG7BgL33a+vQxVgXnFj39pQjIe5J6M0EUmMArxbivJrjziJVGRImPUB62bMNyqnMVmkpoqfo4ehGZYGvPSHpPUhixw0wHdepw9EZ702s9SO/MLdCgL42HnyS8oqJq4j1S/qXSJAMHaScyU5fzAA6SdBPBOkifmrReAiUVPKy74kLz9hgntaWJSnnZIHzMjjSuN1vTBA5T4ZMY8thtJbrJNGTRRs1qQGwL76gfzkM/GRtUoMwmrBMAWceDr6PQ6NLXLoxXkqExWWM/BWVaqXZKtovnDwDpNSFndrpyYh3VtRWdZbhv6JyAyMRgdLzBw0Kg2p9dJVDTTxgRNSfwQmHtX+HMk+7Io6NUVQj017ZRrvOgyCd+h6l0hR+fORIhrdAwkI80+4i9tzHqPWLpTM3lrhngjZrxXZ/TEJkmNdcITuDMnK9GQHtXai+evyWNIuge3WddGjE81pAhseUE3NGYGQa4erUDZWR00agC5szhv+Bf/JOvJUsHPNRgUuW8f0EORPx4wod2+GccfA22fxfkY2n70ZKd6Jr2oL5lGeNAlFLgtLZ2vrOpkjL60iQJlsl8bzWvYMGqvLoEBrvbNHQJruS2McaswI2nmUrEiase943LmPjCML+IDcWstFqwUCzosiy2dCxZfD01uD3/lkop9R02WRFkEpdb3ZUGw1zyNcfBQDL+2ehBXPKVRNn7xLd+RxG0gXwuvvtyGSZyoyqP00bN6aZyg5SfPEANUaXZwoObEgHtNWOMf6B2A4bu52lx42+NwMVh7KdbzejVMDFCALZR+VsGRWsgYm05NnfuEnS6xOJr4L+n/DBCTlM9GfdrtUgPXpo/kkSIrlD8VHRmZCDbCOr+1vsFcz0uXIu6z8GuiXi3YViiB/N3ZHeVbvZ8Ayi01YKu9Th91htwCZxCcvNEXf/afNFrZp4ooSgXw4tXWm63Gb+XBukrgxPteqUkqn5w8DWceu5BXID1tSEfKHVM5iuGxZO8x85PH8lfwqZjy3jEEeNPKbrZWZZkA1HDgrQlTCLAuOS2ubOECFPVavMztZGA4iGVEt19ZtRnRqgjthp1ji1gn5oGbOefeLzuzppFQvu99J/uYqMwKlgvJ+CNjur2q4quxL2d6gw1mhuWpXCjN3af41tlwst7NgHZpZzajs0ixOhbe1gmlXWOCYQUg5alsSO4lXPRhJiJ4qxS5DRoUO5w/kRd3bT6RyTTxXEv33JUvOLw5Ti5eea3G44yWulXQU+zjQFWy1XhuzTt4YmJwl2UeUQRQcrU0cmvN9si4WeRHvDS+3V4k57SQA/d5agr6D6b+eKjx8qdjoFmYUhyg1977Ge+1KweqOu7/nOoAKclfLpmmDOVw4LvPLPa/q2oGDK9+DCk9eLeW8L2Z5WWAGS3Ovo5KpMWwhQeyZ6cJMbDMN47KIs5W5zFOHNSZS3/cLU2oZQUTCBUasUuPUL5jqRDjC9CX8TukElxnlyraRQDEkyBpFTZFx713CIfcN6CQ7clngdN0qyaQyr114mwRdOgnstHOvdNnZYuXS11oJ5zhGEi7MdZqeytTsz7M2MhUMI8hWGbHvqCsM1lhWoe5hzvx6OR8MVTghGy+9QDtgKpWOMrWBVLsTKqQm1+hzPJhCUQNw+1qfhdV5pRisLoO4yIB3dMy26Gq/sAh4mFXbLKLLVCkptEuldjTAUdPLIAVrEi+CXX9lNWtljfrRKEGkPwhWtPICd90EYxX4qH3D3snUqHoR4DN1so0Fiv+KTeikh3Ikt/kiCiQITtHgc32/nkj7qgdEApFEIqcuM3pbtanBJV5cV1vVwwGlYRtt55KkImoY9WNSdHTQ31oVStZVzcCpkSbkILSmjFbeyeZRRTbja8DoObX3otWNllCRmcuuZomhdNz1a+CJIybOB5+BnRn6KvfjdDgow7TQzgEd45V1eAp/k3qtVNbuMvzj3jxAot6dTxgfqAK1xVGM71buBJJ7Xna+nSMVCeEutx2pAW9aIY7vZFqMvCsDHHEjFkfHDfJR6vR8tfYl+V+XXYdi0FiWWhuxdsIjbKLGxWyga288/LSnys5eo5mLPAbIIGs8Jszmu86tZFI5WJiR5k47COX3UgBKlmPo3RUa4gg/keQFau8oYPC13AZrWD+Y+/dezQrY7fXzAgpC+GF+fkvurUwEEwAoaCIKceQ8aT/NUSaEkvbn4ubJao7nvE+UBwqXMSf1OradhjRRNTJw2JJbvYzyIa0uk3yBv8eHZNEqPKhlbSMD1jbhvFf/CRuv4bJpwOLkledGhJ6DWWcqb42XoAt9BWiHalfIDycHMzl5jdhLz6UtdJNMYxEt9x3csTRjq1A8wazHvUzFEY60jjA/oL11U+bA/ljmDtx6QY7TxVGzGqSBjk4hbjCUm/OuQrHp+jPUe1Temd+stY+GBZiMcYmb0lRSH0NMOeto3SAP4C4s09jE23Y3wbJFVTTqCuQxSL0c0Soa1jDcm+KPNSY6S8yQarA475cFYbCglpC7WlbvkYA7l4Fhdh8WhuCXt3r4sAW35Dnl1YyGSpZQpmwf9mR061kWt7+Q4eljWwR45siWG6+jvbDyZO0set/qThFh8hQWUQy5x7aKd2psX3FJY6i82WN1jgKlm8bnyObvqGlFufp09StTir8M1ZElDgH2Tph0Y4PX9+QCO3KT4b68fYWjpwuQj7rd5atgvJoh7p3dUPliKAI21URU9/gU4ukhNLY9NMzorRNelLOUvy5yygnT/DpbzGo86J3XATcG5hearZtOsJeKq0Z7RDLplXgMcVSPGSYwa+gMApNNvvCq4K6LAOVDsorsBIrDhNLRGr2XisOGsUi3Kx01+1wWlF77EcDQl3UDgqTHuqoh431St+KWKesMnRrvgN92Rqj2ItgTOIph2S9+FZsoTZBNjKO0mGHeWbZUST1dK5uwAIqv3eAu1HvbgQQ0rdniVWnktaS58HF0/4O8Vex07DB4nLALji5hhOOb7Axoch1HINhxs1XpFDkbpc1YmKbTfHKq6AXskToBH2v3B54rgfuqg3brxgyPF8zSJfCnUgQTFX4JypYyNOSpa/Q45Oz8RsnQnUH2cKTcnvRKexc139bElqlpqRBWwoagsVYN0DHIaZAUAKnoNajbisC6OM5H8oQxleIjkjoB1pzyWy7IP46u7paNoZ+xREM1A76LSmsnPXqAI1N6H9FL18TW5Nw0VDBs7LZANaD1f2yVHQXaDip9dQ6m2kQ9AjhMpbkKarKQ1Q7afMqlZygczcRomI7LX1HIHEADgDFug76i0sVRCMyyazrRbTs0PcstUxlD45eiL9Cs0S35uy/M5MyvgTe7turclXf96gi3NseGlcGMdfaAUSrBAWx8jCLSPWJgevOGZS35JkcfZoQtEBInwgDEFI6AUcR78Cobk8vM0kyQ436MIyojNR/Uzvzlg+8CNcMdtTzBye/F9955HaPRBXr2867qTeEiWJ4p29pUGyabt+6nhB9muElVB1LQJHoVGC2OOnKBAXj1FiqLApdqP7mOms531d8Lxftb/6S6gqi8H/dEJlg9HEg5WDHZToheuUatfl5SBXM1XXFqNmOJB4kaIOHGfBX5YGjodYOuHO52sP6+Nm3tNDKB5yymcERLu3ahlXS5VpUgdvxCFgbchzi2n5J2mwPtqHImtMm6AYDmWnStSxFmScvM90FsthCFmT7GkZoKOev1OmLe/QfYDcXacEWC1gM6vrTIXCCHCx4EaPKO6TSd7Ij1vD0cgeJ+dB7Q3g8T5Kuki2mWgziSBbRsHWHKCdIC092xDoC1qKov5AHo01P9S3NpoiOR0X4yU/ZAdhDurX48nQeINn+PnFY9R9a1w440R8U2NGBUUx6SM+4hsJJn7VAkPb+BC+t5PwlHUbn1FATsXDNXy+cvUkehFZawpYWF9tkExCSPMKdHPmoPibpkl6+uetN1p6K2RZrNIpdtw2pr3vhQb6yeZAvNDrc90ePG1C0XYTbIMkEcURtJO9OwYU1Z3doGnQOVge0qd5XJNxWf8Shb1zmh8JpcaBpZj/D6JMEP584AqioWv9UtOpCRQ0mPFrOu1SXYouWUYgJHYu0NYB58k064sLElhgTNaeUDckQn4/faSHfwlK13bxyuA3jnfUsw55WPXXkOYQe5Tmak+X73g0fqEXZPytWXriibR1jruOtaEFIGFSyH2jYns7jXohWQPLUruXWo3UVkArFiEhBInol8o3eVbrYC3d+djsOdB+6OG28S/UDX78pB91WvZ240X6r+kLyP67RHF2BqVjBKtiTSGyeB5lSUSpBmyMGdfIH3GlQiP8bgclFqte4+qkj+4J2aJUbpHLW80LBDUfUnSsk6fOmNxaNWmduS7b2uSorI1zH/9fAmWEd9Is8VVrJpvxqu0WU5n+Ey4BumcpnvXJJXm5oQTSKZDNTTt5Z2dRa2/kV4eK2GYouxwbsoGwb3hW+mq37CK6vj/1P+VT+zxpD5ov46ZjNQmpZLc0Zx+clg4oH7qvUym3Z2E4/p7a63tiZHi1Q0qsVSwXrsc6DVQhG92s6y3o+a8EsFozV4zn4E8PP1llFvqSnpsek6vCdhKFrfWu8ksBs7bIMCzSXFRGUSGsOoL+SzvL/x2zKI0VZ6HkcjtOD2iHJYRpDwr7qWTuKoQPQGKxrFtZjg4RkVx2jCTOM+Mo+i8Uw8jyPLl1tbCvE+VWcKVmOkAkUPqx0+w5EyveofdL9mJsVEYuhc5W2tg9lUSHMansfRScq12tnF+McKR/a4quQzHHW3OzV+bd9O4fiKVqdgRba3n+wo/zNgmQm6O8zJMswKR134j/blJ/sRLK+4NsawQKXmTRM4op/eRT/3EjihNXsOePnkhZbcmCeJORb8PNa7AUf1XakWWfksWNHu0U9xjGsDWcPUplo+FjwbbjNSJnXNnjuPum5OwPO0qjtFhuEJPlUJk6t1FMzbO47tu5X19tpxLn6GY8nJFsQn7PmPekwpSIlJB7II4yCkBlwVMDEBrK6g52zy99FdmL+UYuaH8j4N1/Gk0mxF5S55u7zudtf9ruN4m5CP9SppzDsn75hdK+xXUJbrGths7NSKOel3RjbrmTejhgKMdQp6J9dRq03x7ncitGJcwDOvdeYO7DhJK+wPsD/uGhuiU9EQDPSce1eZAH3VP+x83AgbJowmvDrSyZcqjdi3gl4zXT0YdwaI95/iiF4Be3AXWOdZhhrGnvNxs97zj4qqVo2fwLcjo6MuHAfK8r5NxNeYTrlql5yaL9XCXLPH+qqhSgiMxOuPASuZmsYOlVU/q9nfVCwAE1TmQ58GVstkOPM5n/CyvFwqKWx4VC5TMaU2ORDV317ngoB3MaCWN4lqXYn9bWgJ7LGTmdZRCNNJejzB4VfMgWuoE9lzUNSrNMaRCuTWtpEf/S6Ra5o1OyJyJz5mdy7fqXsHBN6xft4ad2qDY6dmCFQd/cBfzOsR+y+5ylMhLyNfR1zhOE/6YcnKz+SbwWl3TUIJQtZf1PdOrCNQTcLW+9OuP4tali9Rw7lNmMlR5ZcGgu5Httvr+MAPsKLoY/1pL9wrZXOnYGWa8yoMNnYhl9QoQ7NDrx97h4nPMy9YR5VfZ1u4ZbPdJ9YROYCdH5PDgnX8GjqbhRFatVN8tWz2GnotKQmcrMmO02Fo9KS8Gwo9mi/8TvmO/vV8WFWB8v1ISiHbxpTsbNNTtjT3BTFD4aS6wnKw+9knPEdy11vsk8NH5nYKxTSxioOSTUUu0AoKq/k5ZuQC06okywZHfyhWMereTlVQrSpmmsbky8C7Cz4MhPoKRzedDZXmFLHEAgGFY5y3DtYJHHexPT8lyTxP473XXCnZKTM1DfP4fowKyLZN1h7nu8SqF8xrpX4fJVZpLM0XYRUvJlHsVR0KQW8cNVW6q1T9ZTZvBgHTsrzy12CL+oGsUh/WWbANMpUb3MORKmMWR3+7zlf5ImZzu8MV9DLOMR8bn9TX5XDjVCLZ2ekgMe78EMwA61PLgEc+ZPQotGthdrrVaGxXpXLa45LBnep3EuRBQ4UhaBcAABQkSURBVBU6K3LqhcNVvbS7wJ6wvAjN5Soa4YhPtrgz3wZBsM31ZY8e7EWxEpSiMXgx0DPfVX9naqP7WbG7384d6lxiVkmPwu9dRhu3ThjMtFI+ZKHzXi4+QkH9vNjaDjutBK7oUJ1dFZI6ZVNUm98c4Wgb6+jNCNLtdrvaWmVfk1p6KbKczcgppPpfVgPExEVlRJZgabZR1UQFDTtw6yo6bkc104VDtclUCzjUX0zlXi+3xapmiNoClCyclONreibnKgYGqLJv7nZwpEbHGEDYvJiL+SKYb7bs3G/s5cxXukrzH1g86GOvDFZ1IBF2v3AOvK3REmR29mJzFMscx5HpYuHUusN6qG5Q8iaSw3KZ1grRto6onmxPgjKi6+6P12XIhF1peHVMBxuXIruM9vP1Jk0Sc3Yc1EkdQuxxgv6UYWc+GG4PbV0l76+02pmr4shl/3npg7gCsLf0VlF1OfS6U70xqnGFua2TJDG9e7dawZydeIK9vXR9tnotMddH6UsNrVqKAmeL1XaVz41wye2eS31mbVA0m3yiNc4g+0JiEuLCpfr6amQ6cZjO8ygNos3rEL6tUhXdqMAz1Woa57c+eyOFD3u9mGFRVPu7F85h/Aw0aQc8njfGK6cbV1YB+98P7usCGM682BZx48WmIQhtFsS4fuPtyKilXj0GWDncDVWsrX4C1jm/9ZdfINW1QsgDRqbHc+Ib78ddvVNP3O9xY+rRcEezaJYV9R6+dXDcUziRbX6w1gmqcMRTEHyUosEyCMzFKl3fegxH091TmQiVhTxyQBhYYVINQWTAxDdOvwWfqHLjuqCLrnWls/tGeeYT5OZ+vVONgZkMa1QphcF6b1e/hH2nDDb9ig6dhrGEo3TfOCAYn/br9crIi6C4rweqTGGtMeYfo3QcOhkPbe5VdKXyC2qT3MVxM0gJrXz3TQ8yzObku7w6bUyvXeXCHu+MhUpqjuJso/Yb5XITqIgitcnvOrrr/ehZNiZ+ro31ATDd5P1DADS2mIU2tf5Gfan/0sbo0O1cnQRD/ej1bjrObtgHUqMipWutTQBTP3RSNZs2onDjUGXF7ecDj1zPornqltIm3BBQstNEzgOpivd9GmB3DGaWbNBftQgtfCAqYPaw0GVZOSOB5OHmRVxrDmbbiUbnI68sRXXf3WYdiQvWZZfavNYNjfH235ElrcnjIqBUXLhLIafqlNQ6Bp2pqXHUkAfv1+aOq05Us7KnXIb50qbeq3zYKhcTWpr6a82Ni9sL/1ihu+XaLkw2ljisMkXq18g6eEw9nqxaYXDH1ZPI08BaYEVkJLpovuK8UPSqNkXnoIhWzwE+Nw8pYXmBtdmdZDQJqlaWosuPj/wcErbMa/8r5piLC7+9dtywBecfQ3uMFqSzSJpsFAZmHy71Tt2PVY4X6v6m67lnqVEKFUmsYuFOecjNeW6JLs9RAJt+Y6pTziwgy7TV68U8iWhaTmPhiA2R+uYqqVVMzm4db8lVJboPIOnpsOjgUNyYzsvLqsuzYT8DrL96R+GtsVOeVlYDsZ0FBYYPVZ5R66xocMQtE6yJNaFiykQgldIIFqm1MLGWFQ3UYeYz9oWpN5XQVBdFjRrCB7UaptEIZkNuTBTc9hMU2IUPzU4TxN3VtHf1D2cuh5mWV0yZhC9DazUvVTiQLKqgwjH6wTfHEY5Kj833/J1SBmfH1GdrRxWkz+IgJnX+TJ0pBgM1m3muz72oWKVRtWMSSqUZh7WIE7VzJnFX6+FZHTapWfWL5rwYRt8jJQUlK7yUdgTuTmxOSNHi0kJqPMzYgFZVMc9NbVmcN68ITCJ2URaJt1bnSKhmHsM5bXU01wy284Z/tp0QFlOTo3ZRp1PMq+0HP2AxbCr/ElXZj+by91EzjIBmB4T8Iis3JTXhxgbQPATyv1zXu/wI2vZwP2pyXQnRA0m3KsKCtSv7KAgQRVwMY8BUNTpXSFeYVEelYdMnTbT5VoKyQUalTUowgOFcR7ooz/ate5KmpANvAaGhN0DTcDV8rC9eJI4RqzQxyjHbwAz5ZT9HqN6P61rf65UO6yw9OslMSF13+LjCT6BSUHnbdPnKT6v19s4HfjsVH5iIWWpUl+rVJKWxd/4+D+M4y7JlsMg3G8p5k6DGvAxnh0ysu0BtytnmMTrXJNbXpIWPJKD1D0GsaTVTKK4G51uHsyTaAopSXlCrHmwMTYs6ZddHNXvlS18WUsbxlDseZNK5YzkL5oWmGSowL/zFVwfGY87kILYjVIeAVx2XuYhXUWJTP5pFsFVHUfUPDW5evjLeKR+sVq5QEnubOMiUd/7OJ8IceMTLTF3NFthOW3nj973IBh5aM91YF/N5+NtkXX1OztYmq/zdHUQDVSn/TqIEyWaLPJujKcf84ckNXRzxPcNO1q4dLM2A6uwleoQm8iwtEO3UakD3a48UzuJLTyuIpmwVRpQe9Qi7zQvI+RlsqqiqOYSpGCYjVTX5N4nWvb1wAie3XVWI/BBHHcMMXc6nSyNI5xYeZ6npdDzHKI+EoeXmaUotnrfpVyiku4r0io9dT9WFGPoexqaoac7Fx8Iyr2Je8g3d1sNj2JC53h2izaLMjWKVAofUJjph1rRadxJQTFX3iwwXcUbRD+99CkUsPKtddBq7e+0WELLFEfjwI1JFgK36Nngudo1+86n3YqJwRLfyx6i3mzLGMYsYe3cHyzBNsm3GJjI8hjVl9NQ4yq1FXMJO1mWV/joK42DFUHOKh9Dfoo7XgLXZOkrwOo/6TNoTe2CLzI1p4U2p3rSA+16PIvVkKTKlXavez17uBPYiS8YnXo8Ynp+VSWoYgRH41KtOksUyYxNdsY8NvwPFvFMzBBpR/R5B5vHt0TkJ1CGge0YNtXB6kyxK+Eemhduan2JrmSENwiM9jObeIhUz9ldhbpqOsd4aeLiDRhsQqYD8AHpVg25n8XqZx9lpdrRt1X2kRIZ6HiVrkBrLr4r2YfHdw71T8eK0fg297gE3CYJSgzvpS1jv/OqE50tBB6cu68aOwGEmnHigCVMiYKJSZgQri7xInaURFGYSmVjiVtcbwoOk7xiLMIj2ZlbMkthysXueYD7l2W3Gph/yWhicqHDUq4MHK1g0SFUtSR7hCK94U362GkAX2fFNSWYIhiaadI/dRB8FbL2glJeC1D518kMeJ/Yi3cTePM1NfDLi6FppkYTZOgwCUL9XM8lUXb1UhczLqRYXSGWF6jErmIs5sO1iZB29BKXOp2kmqCB0yskXfGdOdnGmvktTvzgq+X3uV5n/iM+q3FinZVLGMerPM6bPjdwqc32bzwuf/IvKjLNVge9hsmUr1iXUTZ11j1/qBuyAsztv2uowlKDvU3pcC0TLbeTI5towjbiCmJ8nsjdQo4lVxtUp05SgJ1kvy3i+SVMrDgt7C/t0YczzNZ0yV2cc6LHKeB2d+1hDhExAjUWPG4ag6bM7Msr2lmvbFeIBbFAxb31XV/9Rz70FRlWGP+kU4zTUsc08sWiNdOIwwCaAcNOttfATa2Xg4Xtoy6inS6vy/ryarF9F0AB1Cqzeh/2Tav4K/3HLTodLVGTiT7sii4iEr6yrCK0HDSJ1rL5aj6Rk/Wuszvjmb4c0QjxF1WlXt4pc03OkTxT8KhffS69V4cNhGMRtAM9AeuZoBxINb2I6wbx51l4VZNAn7WHfROxh+vaowzLOkNMWBhwC064EtxQSWyboVTBNc8zFR33ZW+CMizkb2FDZ85dAHRKNz1v3akJ1IdS+wBE1pkjZaONLNKXYl9uXBk++T2KdNIWqMwlz482h/fkc0OacHhv1BTs/d3weih7tk7litcN8ip2M34x2eqQ9IFcFdrjp4hnTy5Hbxrv268vG/PxcCjTf35871MUBpvpVKq1U2t7jPnstaC6GNqJPzlpRP/nm9lAxIU6tkQTLXqvPd6BjxE98QjGMskOm+qNMAO7Grzqio6sbd6T8vIUpXSqoitlh4lEmsBA1g9Zda61WDnQTTZUMXNczt2ZtVPf+8CEh/zJ3XI2IIhOj7MypK5G1Bp+TdPPQOb5eTqoJI1Bs6OqQ13jxVW/29h1LDI09s4y0z+7yiY2mUZ3QUydGwTwYSK7PXIreD/9QBbM29vNnVdPp9J/TcgUC1W3zmbM9BaUWPcepNTohInvqiFsyleaEZMpUeu3XL6D8AvK+f/kCiedsYuTgmdnQaSRPHlNJ3WXn7LmT+8gn8j7pw3h0Bx5G8ByhqnOcvKcejZR3rmJqXwMw4tk7Xzy3IwUN5CfO+bNv/OprjxlSB1TH1s0z5MdorZGw5480tdHlziu1fX/q4WAEsmfIiXq9WcSHn5sQjaJl/tNHMqnyROe560FBc/Mp98sDGKdNPxhD55DlZ8CgNuBPHwWjo3NomG32ENA2Nr6wSxsQT565qTHnhqdqP7ss5Is60GEFTwNGDQv2/B0wojeL+iJ+AwjVFf/49MM0KVC3d56bvwZQYY6eX3qirNx9ft4/B6ylj0dRuYeg+HX6/A0EFKe5PI8jnln6yt9/69jQBvBMt9Mn51yPoaS99XNnwAl1GsuGaeJZUFWtdwv9a8/fNQQgdjzr/ELu5+cAnfGo9P/0oXp4Qg9/0HL3EWgMj9bYPck4H0H69pzd04UcKHWq0cbnoFVBfexD/RNgomtt93P39KAAfeyyDn/upi2geH5OwxlAP1/qr4cH3R4+hzkv7RacCbA/gy9u+LWHDb5oL/DG1WDP4fisjfcXgP8fjo/g/xOOdKiz0Kr8DF2vjlPBBC5M2sBfVGIDJmeJQRoHyk3UsFBk6ngjnnylq6Zufcuagq2qxzGmhklR97qm6gY0x0kW4jn2VDRLQrhTefQt64haJCWVMLIK1GlU+INUv0ryK1IYtntwpAKtmivW3MDYQ+NeUL5am96uns9Yo3ZJObz1N3F0A2OZrtOtL0SKZxjZhYF5h8IxjLXcpOutflyt8kjXDWO5jERkpB3deL0Itpgh5ubzNGeBEaZpGtipGS5TY212B7pMl0aazktzuTQ8YRppZMyXIVy43JpGaGQsNlLPWy/TBDs1WkYIl6/TOlbxu+uocT4rvUuks/cLHairqgoSLAxkmEsqqbANs9EwXTsP9c4SbKuX65QVRE96cUD3sl3b7CdfbPi69BYBO5LKsjbYeW0lPJ8dT/AqjOcUIdZoBKBMbanlo+46hzrp9bf34+UMeJQ+um5Qj/Tv6NKCf9FkpHSvHXerTjOSeduO3xJd3KSna+zlXD1JwJM+8AY/7OnQAebUOFHVjss0pYUOiZT5BWCGX4UWJj2u8TVoL26xdXutbP4+ji+ubxaM7S3KmLUDPFs7iChgTjhecMg69sTbsz3reP9EjSNDHBk7X2D51lhFobHZoIP4nMc+HgASUOYxnnKGDrE17l6FoxVi1YGhp6jT2BjH2jdpA7+JI+a7HI9gNumv2o1HmnACC7tsMUWriOM7rSNlfNzs+mQhBQa64XQ8G5Jw5Jvjm4E4bvJXKj2qj7zC913zW4vjnKIGqmmPwjHaou1+vQE6EnC8JRtua5Xn9ffX8R3o0GTpcZHjo5wtu/NF3MGRv0uVl+li6g7eU14PN0/hGGMUR0McBTsDonaswZ6TTFfpRBFcSbHtAvfhGnHEDZFRuDHG/G9R4egkiONS8rOUah23kZDfgiPOvosjh/EBs8C4PWyLM5FpjSMdvJkL+kjSNMoXiVPjCEOb+VSKcr5QYw3gL3iDZdLIt6osHdPEwYAEhPDrmOyrDCkdrXx8CDYLCIGtrRSt0hnmufgeHF3OYyk1c08h2ICle5eBiefxV1t3+M3BVvCz0jrdmLSx9Wb3IXbCV14J6zBDf7f7zi1MhRBXntlO1kvcEwlfUF9Ih59t5l1cEPNuwhMswnf4xWbl2ccAS+JL9INY/BQ53uJeMbjflY/rMDQ85hkgo7JliILJZJn00zBc+qm5DG0jJIMvhmvgYy9SGC7pt6UDVxs6PUlI18DHgDTs+l9QCIYqurzd7Qtfk9Jd0neUnbY7FL7OSrgxZjMQmksYxjItZt+zjoop0BEgjeNQr+qwddZhMBU/7VdkNTdgeFldVSe9iLGHS2/uaU9D1+ouDNXraSjNHUqx/E8nfwz/4fiXwX84PoT/DziueGr+z4Dxqzj+T8Ev+R7LJL9++tS0nGhN+YegHJ+R2YVDvngyuN8HJWcj09wcdtNPDr4lEvcM2B/TI9jtc3UMNHuQEfoT4PqWERx2L6OlnNBVvhewq4GfD9972e1XhkUtkH4lBDCC5jhvQNV2lvPgfmk6/PPzz4dSfho6jOHtcgvmodMc2aLr4om0madAdP5FkJ6XLk7v6kjgjFyB3/Oi3ktV1fdaTeiP49bwvDHR/IEX98BWnZt38YM26L8H6OvUjPd/eOd3APPhAbFSHU1x+6k45dPgVzWSeCq0rvrk/JH3fAWZ4rkvRVsJ8NtABfssqjjNZtSw6x8GvcGS557GvglHTEmvZPPRYU/lYP5BoCNwZlXW9Ov8p2Py0+AlFefGkzN1/V/GsYKobo1/NVTO/88vqKj4KIvmVdryS/pcgvU/AlTYsKwb53ykn5bJfA5lUOdln1Q7le8b5W+CqqyPFrUedEni/smjT4kxxzjVysVt7dLK/gmZ9JugW3mj7t0WIbkSVbRwKp9Ip1gj/ek76fHe6E6r3yCEPw7Yi2626LS43udh/IX4tuPlvlPpsaO2DX8Hl5mESrGN0v6hB7djPjezWdRiq/ueZYXB5nTpXZioSo9Hpxz8beCZxxv/CTjk8f+QawVBNWdxLWNzffsKu/MhWSple9TS5W8GdR6vYqbSj4y0OLy+vnYPsOHw+fW4Tk3fr/vDtKc3/i+D7URRlSD1TQrRXwQqHaV3FDqlo/xhH0IF/wdOF7YSlbKLnAAAAABJRU5ErkJggg==" style="padding:5%;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">MIXTECA ORGANIZATION, INC.</h5>
+                                    <p class="card-text">
+                                        Our mission is to empower the Mexican and Latin-American immigrants of the New York area by providing them access to services that enhance their quality of life and will allow them to reach sustainable social and economic development. We offer a variety of programs and services that respond to the specific needs of immigrant families and aim to build a supportive environment for the growing Mexican and Latin-American immigrant community. " <i style="align-self:flex-end;">- Mixteca Organization, Inc</i>
+                                    </p>
+                                    <div class="collapse multi-org" id="org3">
+                                        <div class="contact-type">
+                                            <strong>Phone:</strong>
+                                            <p>(718) 965-4795</p>
+                                        </div>
+                                        <div class="contact-type">
+                                            <strong>Addresses:</strong>
+                                            <a href="https://goo.gl/maps/PUX7znFAeg8WtnmD7">245 23rd Street, 2nd Floor Brooklyn, New York 11215</a>
+                                        </div>
+                                        <div class="contact-type">
+                                            <div><strong>Website:</strong> <a href="http://www.mixteca.org/">mixteca.org</a></div>
+                                        </div>
+                                    </div>
+                                    <a href=".multi-org" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#orgs" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#orgs" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <a class="carousel-control-prev" href="#orgs" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#orgs" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
+                <!--DESKTOP VIEW-->
+                <article style="display:none;" class="desktop-card-scroll">
+                    <div class="card">
+                        <img src="https://pbs.twimg.com/profile_images/1042522643373600768/leTVB5bm.jpg" style="padding:5%;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MAKE THE ROAD NY</h5>
+                            <p class="card-text">
+                                "We provide a full range of services to 17,000 people each year, including legal representation in immigration, housing, and worker exploitation cases. We teach English as a second language to 1,600 people annually, and have helped over 12,000 people gain US citizenship." <i style="align-self:flex-end;">- Make The Road NY</i>
+                            </p>
+                            <div class="collapse multi-org" id="org1">
+                                <div class="contact-type">
+                                    <strong>Phone:</strong>
+                                    <p>(718) 418-7690</p>
+                                </div>
+                                <div class="contact-type">
+                                    <strong>Addresses:</strong>
+                                    <div>
+                                        <a href="https://goo.gl/maps/9KvnfniY1ez3Ktkb6">Brooklyn</a>
+                                        <a href="https://goo.gl/maps/k4wzZ6t5RDdS8F1n8">Queens</a>
+                                        <a href="https://goo.gl/maps/CMJfP6Q7CTuNYXjj7">Staten Island</a>
+                                        <a href="https://goo.gl/maps/K67x8oNC5tcvuQFR9">Long Island</a>
+                                        <a href="https://goo.gl/maps/WyV7ijHRtEhJQWaN9">Westchester</a>
+                                    </div>
+                                </div>
+                                <div class="contact-type">
+                                    <div><strong>Website:</strong> <a href="https://maketheroadny.org/contact/">maketheroadny.org</a></div>
+                                </div>
+                            </div>
+                            <a href=".multi-org" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://aws.cause.clickandpledge.com/accounts/60175/connect/images/637136405452029386_NYIC_Logo_(1).png" style="padding:5%;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">NEW YORK IMMIGRATION COALITION</h5>
+                            <p class="card-text">
+                                "The NYIC Immigration Advocacy (IA) team works closely with our Immigration Advocacy Collaborative to push for comprehensive immigration reform and to expand the rights of immigrant New Yorkers. We mobilize our members and allies to challenge lawmakers to create a fair New York, with opportunity and justice for all." <i style="align-self:flex-end;">- NYIC</i>
+                            </p>
+                            <div class="collapse multi-org" id="org2">
+                                <div class="contact-type">
+                                    <strong>Phone:</strong>
+                                    <p>(212) 627-2227</p>
+                                </div>
+                                <div class="contact-type">
+                                    <strong>Addresses:</strong>
+                                    <a href="https://goo.gl/maps/vPZZKvVz9KKGfatb9">131 W 33rd Street, Ste 610, New York, NY 10001</a>
+                                </div>
+                                <div class="contact-type">
+                                    <div><strong>Website:</strong> <a href="https://www.nyic.org/">nyic.org</a></div>
+                                </div>
+                            </div>
+                            <a href=".multi-org" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://www.guidestar.org/ViewEdoc.aspx?eDocId=5893169&approved=True" style="padding:5%;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BROOKLYN COMMUNITY FOUNDATION</h5>
+                            <p class="card-text">
+                                "We are committed to helping Brooklyn's communities move from fear to strength, from trauma to healing, from division to wholeness, and from uncertainty to action. Brooklyn Community Foundation established the Immigrant Rights Fund in late 2016 in response to mounting uncertainty and fear within Brooklyn's immigrant communities..." <i style="align-self:flex-end;">- Brooklyn Community Foundation</i>
+                            </p>
+                            <div class="collapse multi-org" id="org3">
+                                <div class="contact-type">
+                                    <strong>Phone:</strong>
+                                    <p>(212) 222-3882</p>
+                                </div>
+                                <div class="contact-type">
+                                    <strong>Addresses:</strong>
+                                    <p>429 West 127th Street, New York, NY 10027</p>
+                                </div>
+                                <div class="contact-type">
+                                    <div><strong>Website:</strong> <a href="http://immigrantcommunitylaw.org/">immigrantcommunitylaw.org</a></div>
+                                </div>
+                            </div>
+                            <a href=".multi-org" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data:image/png;base64,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" style="padding:5%;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MIXTECA ORGANIZATION, INC.</h5>
+                            <p class="card-text">
+                                Our mission is to empower the Mexican and Latin-American immigrants of the New York area by providing them access to services that enhance their quality of life and will allow them to reach sustainable social and economic development. We offer a variety of programs and services that respond to the specific needs of immigrant families and aim to build a supportive environment for the growing Mexican and Latin-American immigrant community. " <i style="align-self:flex-end;">- Mixteca Organization, Inc</i>
+                            </p>
+                            <div class="collapse multi-org" id="org3">
+                                <div class="contact-type">
+                                    <strong>Phone:</strong>
+                                    <p>(718) 965-4795</p>
+                                </div>
+                                <div class="contact-type">
+                                    <strong>Addresses:</strong>
+                                    <a href="https://goo.gl/maps/PUX7znFAeg8WtnmD7">245 23rd Street, 2nd Floor Brooklyn, New York 11215</a>
+                                </div>
+                                <div class="contact-type">
+                                    <div><strong>Website:</strong> <a href="http://www.mixteca.org/">mixteca.org</a></div>
+                                </div>
+                            </div>
+                            <a href=".multi-org" class="btn btn-primary" data-toggle="collapse">Contact</a>
+                        </div>
+                    </div>
+                </article>
             </section>
         </main>
         <footer>
