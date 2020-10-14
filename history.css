@@ -35,12 +35,16 @@ nav .nav-link.active {
     justify-content: center;
     align-items: center;
 }
+h1{
+    text-align: center;
+}
 
 
 @media (min-width: 800px){
     .bigBox{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
     height: 500px;
 }
     .container{
