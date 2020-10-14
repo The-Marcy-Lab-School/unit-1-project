@@ -37,6 +37,7 @@ nav {
     align-items: center;
 }
 .text{
+    padding-top:2%;
     color:black;
     text-align:center;
     font-weight:bold;
@@ -70,6 +71,8 @@ nav {
 footer{
     text-align:right;
 }
+
+
 @media screen and (min-width: 600px){
     .images{
     flex-direction:row;
