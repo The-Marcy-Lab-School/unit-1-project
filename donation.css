@@ -1,10 +1,40 @@
+#maincarousel{
+    width:50%;
+    height:50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2%;
+
+}
+.imgmyth{
+    max-height:100%;
+    max-width:100%;
+}
+.imgtax{
+       display: block;
+        height:auto;
+        max-width: 100%;
+        line-height: 1;
+        margin:auto;
+        width: 100%;
+  
+}
+.imghelp{
+        display: block;
+        height: auto;
+        max-width: 100%;
+        line-height: 1;
+        margin:auto;
+        width: 100%;
+}
 body {
     background-color: black!important;
     color: white!important;
 }
 
 .title-banner {
-    height: 4em;
+    height: 3em;
     font-size: 4em;
     display: flex;
     justify-content: center;
@@ -44,10 +74,7 @@ nav {
     min-width:450px;
     min-height:182px;
 }
-.images{
-     display:flex;
-     flex-direction:column;
-}
+
 .images .image1{
     display:flex;
     align-self:center;
@@ -59,34 +86,21 @@ nav {
     
     width: 50%;*/
 }
-.images .image2{
-    margin-top:10px;
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 42%;
-    
-    
-}
+
 footer{
     text-align:right;
 }
 
 
 @media screen and (min-width: 600px){
-    .images{
-    flex-direction:row;
-    }
-    .image1{
-        margin-left: auto;
-    }
-    .image2{
-        max-height:430px;
-        margin-bottom:4px;
-    }
-    
 }
 .background{
-    
     background-size:cover;
+}
+.dontext{
+    max-width:50%;
+    max-height:30;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
 }
