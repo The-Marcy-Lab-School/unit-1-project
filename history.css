@@ -39,6 +39,10 @@ h1{
     text-align: center;
 }
 
+.stereotypes{
+    width: 80%;
+    margin: auto;
+}
 
 @media (min-width: 800px){
     .bigBox{
@@ -54,9 +58,5 @@ h1{
     
     .container li{
     margin: 30px;
-    }
-    
-    .stereotypes{
-    margin-left: 20px;
     }
 }
