@@ -18,14 +18,18 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 | Rabia | Gracey | Andrea |
 | | | |
 | | | |
+| | | |
+| | | |
+| | | |
+| | | |
 
 ### Process
 1. Identify a cause or social issue in your communities that you want to support, learn more about, or raise awareness for. This could be national issue such as voter suppression, racial injustice, or education inequality. You could choose to highlight a local issue or one impacting your family's home country. What is important to note is that you do _not_ have to be an expert on this issue nor does every single member of the group have to have expertise on an issue. You should think of this project as a learning experience that will start this week but will carry on throughout the year in L&D as we explore different social issue.
-   > _**Pro-Tip:** Reach out to the 2019 Fellows for some suggestions on ideas to consider, if you find yourself stuck. This group has a number of interests and experiences that have been cultivated over the year.
+   > _**Pro-Tip:** Reach out to the 2020 Fellows for some suggestions on ideas to consider, if you find yourself stuck. This group has a number of interests and experiences that have been cultivated over the year.
 2. Perform initial research on this social issue. Each person in your group will find relevant information on the issue and bring it back to the group for review. Together, you will decide what information should be highlighted in your website.
 3. After you have performed your initial research, you will create a wireframe or mockup for your website. This will serve as the creative guide or outline for what you will build using HTML and CSS.
 4. When you have completed your website, your group will prepare a brief presentation in Google Slides in order to tell the story of the creation of your website. You will discuss the challenges and solutions that each member of the team had to overcome in order to ship the final version of your website.
-5. We will present our websites over food and celebration on Monday, October 19 at 10:30AM. 🎉
+5. We will present our websites on Monday, October 25. 🎉
 
 
 ### Tips
@@ -43,7 +47,7 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 * If you come across any others, please submit a pull request so that I can include them here!
 
 ## Key Dates
-* **Monday, October 12** - Social Issue Proposal Submitted 
-* **Tuesday, October 13** - Design Mockup completed
-* **Thursday, October 15** - [_MVP_](https://www.freecodecamp.org/news/what-the-hell-does-minimum-viable-product-actually-mean-anyway-7d8f6a110f38/) Due
-* **Monday, October 19 at 9AM** - Final Project and Project Presentations Due!
+* **Monday, October 18** - Social Issue Proposal Submitted 
+* **Tuesday, October 19** - Design Mockup completed
+* **Thursday, October 21** - [_MVP_](https://www.freecodecamp.org/news/what-the-hell-does-minimum-viable-product-actually-mean-anyway-7d8f6a110f38/) Due
+* **Monday, October 25 at 9AM** - Final Project and Project Presentations Due!
