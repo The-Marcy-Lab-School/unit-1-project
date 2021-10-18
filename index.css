@@ -1,67 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-family: 'segoe ui';
+    background-color: #9CAFB7;
 }
 
-.topnav {
-    overflow: hidden;
+.nav {
+    height: 50px;
+    width: 100%;
     background-color: white;
+    position: relative;
 }
 
-.topnav a {
-    float: left;
-    display: block;
-    color: #C48E27;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+.nav>.nav-header {
+    display: inline;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav .active {
-    display: flex;
-    justify-content: flex-start;
-    font-family: Rowdies;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 15px;
-
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    font-size: 22px;
     color: #4281A4;
+    padding: 10px 10px 10px 10px;
 }
 
-.topnav .icon {
+.nav>.nav-btn {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-        display: none;
+.nav>.nav-links {
+    display: inline;
+    font-family: 'Rowdies', cursive;
+    float: right;
+    font-size: 18px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #C48E27;
+}
+
+.nav>.nav-links>a:hover {
+    background-color: #f8f8f8;
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
     }
-    .topnav a.icon {
-        float: left;
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: grey;
+    }
+    .nav>.nav-btn>label>span {
         display: block;
-        color: black;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: white;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .topnav.responsive {
-        position: relative;
-    }
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
+.section1>h2 {
+    font-family: 'Rowdies', cursive;
+    font-weight: normal;
+    text-align: center;
+    color: white;
 }
