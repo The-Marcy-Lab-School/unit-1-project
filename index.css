@@ -70,7 +70,7 @@ a {
     color: black;
 }
 
-
+/* this is all css for the nav bar, under this add the css for your code and section it off/*/
 
 footer {
     position: relative; 
@@ -89,7 +89,7 @@ footer div  {
     border: solid 2px green;
 }
 
-
+/*/ this is the media querie for the nav bar/ hamburger, under this add media queriy for your section*/
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
