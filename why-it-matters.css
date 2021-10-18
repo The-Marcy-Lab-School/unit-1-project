@@ -3,30 +3,31 @@
     color: #c48e27;
 }
 
-.border {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 25%;
-    background: #4281A4;
-    border-radius: 26px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*.border {*/
+/*    position: absolute;*/
+/*    left: 25%;*/
+/*    width: 275px;*/
+/*    height: 125px;*/
+/*    background: #FFFFFF;*/
+/*    border-radius: 18px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    align-content: center;*/
+/*}*/
 
-.border .container {
-    position: absolute;
-    width: 175px;
-    height: 175px;
-    margin: 15px;
-    background: rgba(234, 210, 172, 0.9);
-    border-radius: 26px;
-}
+/*.border .container {*/
+/*    position: absolute;*/
+/*    width: 250px;*/
+/*    height: 100px;*/
+/*    background: rgba(234, 210, 172, 0.9);*/
+/*    border-radius: 18px;*/
+/*}*/
 
-.border .container .item {
-    font-size: small;
-    text-align: center;
-    font-weight: 200;
-    color: black;
-}
+/*.border .container .item {*/
+/*    font-size: small;*/
+/*    text-align: justify;*/
+/*    font-weight: 200;*/
+/*    color: black;*/
+/*    margin: 10px;*/
+/*}*/
