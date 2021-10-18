@@ -67,8 +67,29 @@ a {
 .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
-    color: #482ff7;
+    color: black;
 }
+
+
+
+footer {
+    position: relative; 
+    bottom: 0;
+    font-size: 1.4em;
+    border:solid 2px red;
+    width: 100%;
+}
+
+footer div  {
+    margin-left:5%;
+    margin-right:5%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px green;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
