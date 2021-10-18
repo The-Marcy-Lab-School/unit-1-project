@@ -11,6 +11,9 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+/*Nav bar css*/
 li {
     list-style: none;
 }
@@ -77,13 +80,24 @@ height: 1000px;
 border:solid 2px red;
 color: white;
 display:grid;
-grid-template-rows: 1fr 1fr 1fr;
+grid-template-rows: 70% 1fr;
 
 /*justify-content: space-between;*/
 }
 
-main section {
+main div {
+    display: grid;
     background-color: blue;
+    grid-template-rows: 1fr 1fr;
+}
+
+main div figure {
+    color: black;
+    background-color: yellow;
+}
+
+main div article{
+    background-color: purple;
 }
 
 main aside {
@@ -161,3 +175,15 @@ footer div  {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+@media only screen and (min-width: 768px){
+    main div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap:10%;
+        
+    }
+    
+}
+
