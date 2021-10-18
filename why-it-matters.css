@@ -1,0 +1,32 @@
+.title {
+    text-align: center;
+    color: #c48e27;
+}
+
+.border {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 25%;
+    background: #4281A4;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border .container {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    margin: 15px;
+    background: rgba(234, 210, 172, 0.9);
+    border-radius: 26px;
+}
+
+.border .container .item {
+    font-size: small;
+    text-align: center;
+    font-weight: 200;
+    color: black;
+}
