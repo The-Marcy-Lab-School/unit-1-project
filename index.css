@@ -72,6 +72,28 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+main {
+    heigh:200px;
+}
+main p {
+    width:100%;
+    heigh:200px;
+    border:solid 2px blue ;
+}
+
+
+
+
 footer {
     position: relative; 
     bottom: 0;
@@ -88,6 +110,35 @@ footer div  {
     align-items: center;
     border: solid 2px green;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
