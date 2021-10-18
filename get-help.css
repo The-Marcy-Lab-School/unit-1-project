@@ -1,0 +1,22 @@
+
+.section1>h2 {
+    font-family: 'Rowdies', cursive;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+
+.res-list {
+    font-family: 'Rowdies', cursive;
+    font-weight: normal;
+    background-color: white;
+    border-radius: 15px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.res-list>section>h6 {
+    font-size: 14px;
+}
