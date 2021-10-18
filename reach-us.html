@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="reach-us.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
@@ -36,7 +37,25 @@
     <div class="body-container">
         <div>
             <section class="section1">
-                
+                <form action="/action_page.php">
+                    <div class="container">
+                        <h2>Subscribe to our Newsletter</h2>
+                        <p>Receive updates about new resources.</p>
+                    </div>
+
+                    <div class="container" style="background-color:white">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Email address" name="mail" required>
+                        <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+                    </div>
+
+                    <div class="container">
+                        <input type="submit" value="Subscribe">
+                    </div>
+                </form>
+
             </section>
         </div>
     </div>
