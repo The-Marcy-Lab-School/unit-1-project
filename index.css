@@ -72,12 +72,35 @@ a {
 
 /* this is all css for the nav bar, under this add the css for your code and section it off/*/
 
+main {
+height: 1000px;
+border:solid 2px red;
+color: white;
+display:grid;
+grid-template-rows: 1fr 1fr 1fr;
+
+/*justify-content: space-between;*/
+}
+
+main section {
+    background-color: blue;
+}
+
+main aside {
+    background-color: green;
+}
+
+
+
+
+
+
 footer {
     position: relative; 
     bottom: 0;
     font-size: 1.4em;
     border:solid 2px red;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 footer div  {
@@ -88,6 +111,11 @@ footer div  {
     align-items: center;
     border: solid 2px green;
 }
+
+
+
+
+
 
 /*/ this is the media querie for the nav bar/ hamburger, under this add media queriy for your section*/
 
