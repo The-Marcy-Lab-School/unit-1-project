@@ -4,27 +4,12 @@
 }
 
 .border {
-    /*position: absolute;*/
-    /*left: 25%;*/
-    /*width: 275px;*/
-    /*height: 125px;*/
     background: #FFFFFF;
     border-radius: 18px;
     display: block;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*align-content: center;*/
     padding: 10px;
     margin: 10px;
-    
-}
 
-.border .container {
-    /*position: absolute;*/
-    /*width: 250px;*/
-    /*height: 100px;*/
-    /*background: rgba(234, 210, 172, 0.9);*/
-    /*border-radius: 18px;*/
 }
 
 .border .container .item {
