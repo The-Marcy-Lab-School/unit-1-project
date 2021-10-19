@@ -76,11 +76,12 @@ a {
 /* this is all css for the nav bar, under this add the css for your code and section it off/*/
 
 main {
-height: 1000px;
+height: 1100px;
 border:solid 2px red;
 color: white;
 display:grid;
 grid-template-rows: 70% 1fr;
+overflow:hidden;
 
 /*justify-content: space-between;*/
 }
@@ -94,6 +95,20 @@ main div {
 main div figure {
     color: black;
     background-color: yellow;
+    /*overflow:hidden;*/
+}
+
+mian div figure {
+    border:solid 10px black;
+    
+
+    
+}
+    
+.causes-pic img {
+      width: 110%;
+      height: 600px;
+     
 }
 
 main div article{
@@ -117,17 +132,6 @@ main aside {
 
 
 
-
-
-
-main {
-    heigh:200px;
-}
-main p {
-    width:100%;
-    heigh:200px;
-    border:solid 2px blue ;
-}
 
 
 
@@ -236,6 +240,11 @@ footer div  {
         grid-gap:10%;
         
     }
+    main div figure {
+    color: black;
+    background-color: yellow;
+    overflow:hidden;
+}
     
 }
 
