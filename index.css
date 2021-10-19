@@ -73,14 +73,16 @@ a {
     color: black;
 }
 
+
 /* this is all css for the nav bar, under this add the css for your code and section it off/*/
 
 main {
-height: 1000px;
+height: 1100px;
 border:solid 2px red;
 color: white;
 display:grid;
 grid-template-rows: 70% 1fr;
+overflow:hidden;
 
 /*justify-content: space-between;*/
 }
@@ -94,6 +96,20 @@ main div {
 main div figure {
     color: black;
     background-color: yellow;
+    /*overflow:hidden;*/
+}
+
+mian div figure {
+    border:solid 10px black;
+    
+
+    
+}
+    
+/*.causes-pic img {*/
+/*      width: 110%;*/
+/*      height: 600px;*/
+     
 }
 
 main div article{
@@ -103,6 +119,18 @@ main div article{
 main aside {
     background-color: green;
 }
+
+
+
+
+
+/* This is the CSS for the nav bar/*/
+
+
+
+
+
+
 
 
 
@@ -131,8 +159,62 @@ footer div  {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*/ this is the media querie for the nav bar/ hamburger, under this add media queriy for your section*/
 
+
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+>>>>>>> 0affd8217208d2a0cadfd6eb08ada04ba3a83ca5
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -188,6 +270,11 @@ footer div  {
         grid-gap:10%;
         
     }
+    main div figure {
+    color: black;
+    background-color: yellow;
+    overflow:hidden;
+}
     
 }
 
