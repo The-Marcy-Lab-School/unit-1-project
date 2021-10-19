@@ -52,10 +52,8 @@ li {
 
 /*------------------------------------------------------------*/
 
-.bio {
-    border: 1px black solid;
-    display: block;
-    
+i {
+    margin-right: 10px;
 }
 
 .border {
@@ -78,4 +76,26 @@ li {
 .itemLi {
     list-style-type: none;
     margin-bottom: 10px;
+}
+
+.fa-instagram {
+    background: -webkit-linear-gradient(#405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook {
+    background: -webkit-linear-gradient(#4267B2, #898F9C, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-inbox {
+background: -webkit-linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+
+.fa-linkedin {
+color: blue;
+    
 }
