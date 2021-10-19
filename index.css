@@ -109,6 +109,28 @@ main aside {
 
 
 
+
+
+
+
+
+
+
+
+
+
+main {
+    heigh:200px;
+}
+main p {
+    width:100%;
+    heigh:200px;
+    border:solid 2px blue ;
+}
+
+
+
+
 footer {
     position: relative; 
     bottom: 0;
@@ -132,6 +154,31 @@ footer div  {
 
 
 /*/ this is the media querie for the nav bar/ hamburger, under this add media queriy for your section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
