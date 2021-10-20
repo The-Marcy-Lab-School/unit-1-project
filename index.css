@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -79,8 +78,8 @@ main {
 height: 1000px;
 border:solid 2px red;
 color: white;
-display:grid;
-grid-template-rows: 70% 1fr;
+display: grid;
+grid-template-rows: flex;
 
 /*justify-content: space-between;*/
 }
@@ -88,22 +87,30 @@ grid-template-rows: 70% 1fr;
 main div {
     display: grid;
     background-color: blue;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: min-content;
+    background-size: contain;
 }
-
 main div figure {
     color: black;
-    background-color: yellow;
+    background-image: url("Polar Bear.jpg"), url("Sea Turtle.jpg");
+    background-color: #cccccc;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-main div article{
+.responsive {
+  width: 100%;
+  height: auto;}
+
+main div article {
     background-color: purple;
+    grid-template-rows: max-content;
 }
 
 main aside {
-    background-color: green;
+  width: 100%    !important;
+  height: auto   !important;
 }
-
 
 
 
@@ -191,6 +198,7 @@ footer div  {
     
 }
 
+
 /*.doomsdayphoto{
     width: 400px;
     width: 100%;
@@ -198,7 +206,7 @@ footer div  {
     height: 600px;
     /*max-height: 100%;
 }
-.explanations{
+/*.explanations{
     font-size-adjust: ;
 }*/
 
