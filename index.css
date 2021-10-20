@@ -79,8 +79,8 @@ main {
 height: 1000px;
 border:solid 2px red;
 color: white;
-display:grid;
-grid-template-rows: 70% 1fr;
+display: grid;
+grid-template-rows: flex;
 
 /*justify-content: space-between;*/
 }
@@ -88,20 +88,32 @@ grid-template-rows: 70% 1fr;
 main div {
     display: grid;
     background-color: blue;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: min-content;
+    background-size: contain;
 }
 
 main div figure {
     color: black;
-    background-color: yellow;
+    background-image: url("Polar Bear.jpg"), url("Sea Turtle.jpg");
+    background-color: #cccccc;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 main div article{
     background-color: purple;
+    grid-template-rows: max-content;
+    display: min-content;
 }
 
 main aside {
-    background-color: green;
+  width: 100%    !important;
+  height: auto   !important;
 }
 
 
