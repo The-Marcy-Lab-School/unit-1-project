@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -73,16 +72,14 @@ a {
     color: black;
 }
 
-
 /* this is all css for the nav bar, under this add the css for your code and section it off/*/
 
 main {
-height: 1100px;
+height: 1000px;
 border:solid 2px red;
 color: white;
-display:grid;
-grid-template-rows: 70% 1fr;
-overflow:hidden;
+display: grid;
+grid-template-rows: flex;
 
 /*justify-content: space-between;*/
 }
@@ -93,7 +90,6 @@ main div {
     grid-template-rows: min-content;
     background-size: contain;
 }
-
 main div figure {
     color: black;
     background-image: url("Polar Bear.jpg"), url("Sea Turtle.jpg");
@@ -104,48 +100,17 @@ main div figure {
 
 .responsive {
   width: 100%;
-  height: auto;
-  background-color: yellow;
-  overflow: hidden;
-}
+  height: auto;}
 
-mian div figure {
-    border:solid 10px black;
-    
-
-    
-}
-    
-/*.causes-pic img {*/
-/*      width: 110%;*/
-/*      height: 600px;*/
-     
-
-/*}*/
-
-main div article{
+main div article {
     background-color: purple;
     grid-template-rows: max-content;
-    display: min-content;
 }
 
 main aside {
   width: 100%    !important;
   height: auto   !important;
 }
-
-
-
-
-
-/* This is the CSS for the nav bar/*/
-
-
-
-
-
-
-
 
 
 
@@ -173,62 +138,8 @@ footer div  {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*/ this is the media querie for the nav bar/ hamburger, under this add media queriy for your section*/
 
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> 0affd8217208d2a0cadfd6eb08ada04ba3a83ca5
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -284,13 +195,9 @@ footer div  {
         grid-gap:10%;
         
     }
-    main div figure {
-    color: black;
-    background-color: yellow;
-    overflow:hidden;
-}
     
 }
+
 
 /*.doomsdayphoto{
     width: 400px;
@@ -299,7 +206,7 @@ footer div  {
     height: 600px;
     /*max-height: 100%;*/
 }
-.explanations{
+/*.explanations{
     font-size-adjust: ;
 }
 
