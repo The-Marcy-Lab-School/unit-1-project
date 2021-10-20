@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px){
+    main div {
+        border:solid 2px green
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap:10%;
+        
+        
+    }
+    .r {
+  width: 100%;
+  height: auto;}
+}
