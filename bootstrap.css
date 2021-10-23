@@ -2,7 +2,7 @@ img {
     width:100%;
 }
 img.causes{
-    width:112.9%;
+    width:113%;
 }
 
 div.row {
@@ -22,11 +22,17 @@ div.row {
 main {
     display: flex;
     flex-direction:column;
+    gap: 10px;
 }
 
 aside{
     order:-1;
     /*flex-direction:column;*/
+}
+
+figcaption {
+    display: flex;
+    justify-content: space-evenly;
 }
 /*main {*/
 /*height: 1200px;*/
