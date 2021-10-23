@@ -2,7 +2,8 @@ img {
     width:100%;
 }
 img.causes{
-    width:113%;
+    /*width:113%;*/
+    
 }
 
 div.row {
@@ -75,6 +76,18 @@ iframe{
     padding:  0 20px;
     /*display: flex;*/
     
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+body {
+    max-width: 990px; 
+    margin: auto; 
 }
 /*main {*/
 /*height: 1200px;*/
