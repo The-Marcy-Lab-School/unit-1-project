@@ -1,6 +1,9 @@
 img {
     width:100%;
 }
+img.causes{
+    width:112.9%;
+}
 
 div.row {
     overflow: hidden;
@@ -8,8 +11,10 @@ div.row {
 
 .row > * {
     width: 50%;
+    overflow: hidden;
 }
-.row.target{
+.target{
+    display: flex;
     justify-content: space-evenly;
     align-items: center; 
 }
