@@ -34,6 +34,20 @@ figcaption {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+figcaption.pic-cap {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+h1{
+    display: flex;
+    order:-2;
+    justify-content: space-evenly;
+    margin:25px 0;
+}
 /*main {*/
 /*height: 1200px;*/
 /*border:solid 2px red;*/
