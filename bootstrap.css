@@ -1,3 +1,15 @@
+img {
+    width:100%;
+}
+
+div.row {
+    overflow: hidden;
+}
+
+.row > * {
+    width: 50%
+}
+
 
 /*main {*/
 /*height: 1200px;*/
