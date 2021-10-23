@@ -56,6 +56,11 @@ h1{
 
 }
 
+.text{
+     line-height: normal;
+}
+
+
 /*aside {*/
 /*    display: flex;*/
 /*    padding: 10px;*/
