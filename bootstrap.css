@@ -7,10 +7,22 @@ div.row {
 }
 
 .row > * {
-    width: 50%
+    width: 50%;
+}
+.row.target{
+    justify-content: space-evenly;
+    align-items: center; 
 }
 
+main {
+    display: flex;
+    flex-direction:column;
+}
 
+aside{
+    order:-1;
+    /*flex-direction:column;*/
+}
 /*main {*/
 /*height: 1200px;*/
 /*border:solid 2px red;*/
