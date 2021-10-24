@@ -1,4 +1,10 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img {
     width:100%;
 }
@@ -18,7 +24,8 @@ div.row {
 .target{
     display: flex;
     justify-content: space-evenly;
-    align-items: center; 
+    align-items: center;
+    order:-1;
 }
 
 main {
@@ -90,7 +97,7 @@ body.causes{
     background-color: #343434;
     color: #FFFEF2;
 }
-
+/* nav bar css*/
 li {
     list-style: none;
 }
@@ -99,16 +106,19 @@ a {
     text-decoration: none;
 }
 
-/*.header{*/
-/*    border-bottom: 1px solid #E2E8F0;*/
-/*}*/
+
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    flex-wrap:nowrap ;
 }
+
+/*.navbar > * {*/
+/*    font-size: 62.5%;*/
+/*}*/
 
 .hamburger {
     display: none;
@@ -131,13 +141,14 @@ a {
 }
 
 .nav-item {
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 
 .nav-link{
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #475569;
+    font-size: initial;
+    font-weight: 300;
+    color: inherit;
+    padding: 0;
 }
 
 .nav-link:hover{
@@ -145,9 +156,16 @@ a {
 }
 
 .nav-logo {
-    font-size: 2.1rem;
-    font-weight: 500;
-    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    color: inherit;
+    /*font-size: 62.5%;*/
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -157,7 +175,7 @@ a {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 4rem;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
@@ -198,13 +216,19 @@ a {
     
    .row > * {
     width: 100%;
+    overflow: hidden;    
+    }
+    div.row {
     overflow: hidden;
+    display: flex;
+    }
+    .nav-link{
+    font-size: x-large;
+    font-weight: 300;
+    color: black;
+    padding: 0;
 }
- div.row {
-    overflow: hidden;
-    display: block;
-}
-    
+
     
 }
 
