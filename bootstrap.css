@@ -98,12 +98,18 @@ body.causes{
     color: #FFFEF2;
 }
 body.what{
-    
+    background-color: #FED989;
 }
 body.solutions{
+    background-color: #28382D;
+        color: #FFFEF2;
+
+}
+body.effects{
+    background-color: #003851;
+        color: #FFFEF2;
     
 }
-body.effects
 /* nav bar css*/
 li {
     list-style: none;
