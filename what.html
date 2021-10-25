@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
  <head>
-    <link rel="stylesheet" href="what.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Climate change</title>
 </head>
 
-<body>
-    <header class="header">
-
+<body class="what">
+        <a name="top"></a>
+    <header>
+<!--comeback and add unique style sheet-->
         <nav class="navbar">
             <a href="Homepage.html" class="nav-logo">Home</a>
             <ul class="nav-menu">
@@ -40,31 +43,39 @@
     
     
     
-    <main>
-        
-        <div>
-            <figure>
-                <img src="climate-change-definition-meaning.jpg" class="responsive">
+    <main class="container-fluid">
+        <h1>climate change</h1>
+              <div class="clock">
+                <script src="https://climateclock.world/widget-v2.js" async></script>
+<climate-clock />
+            </div>
+        <div class="row">
+            <figure class="col-xs-6">
+                <img src="climate-change-definition-meaning.jpg">
                <figcaption>From a fruitful world to a barren world we can easily become.</figcaption>
             </figure>
-            <article>
+            <div class="target">
+            <article class="col-xs-6 align-items-center text">
     <h2>What is climate change?</h2>		
-        <p class="explanations">The long-term shift in global or regional climate patterns. The context is frequently used to refer to the rise in global temperatures from the mid-twentieth century to the present.</p>
+        <p>The long-term shift in global or regional climate patterns. The context is frequently used to refer to the rise in global temperatures from the mid-twentieth century to the present.</p>
 	
 	<h5>Why is it important?</h5>
-	    <p class="explanations">According to our research, we have a very limited amount of time left to undo the damage that has happened to our society from climate change. As the climate increases, our resources will deplete over time, causing it to live harder in the world we have.</p>
+	    <p>According to our research, we have a very limited amount of time left to undo the damage that has happened to our society from climate change. As the climate increases, our resources will deplete over time, causing it to live harder in the world we have.</p>
 	
 	<h5>Our Mission</h5>
-	<p class="explanations">Our goal is to bring awareness to the public about this how this is an essential problem and it can be contained.</p>
+	<p>Our goal is to bring awareness to the public about this how this is an essential problem and it can be contained.</p>
 
             </article>
+            </div>
         </div>
         
         <aside>
             <figue>
-                <iframe width="100%" height="300"
+                <iframe 
                 src="https://www.youtube.com/embed/VYMjSule0Bw">
-                </iframe>
+                </iframe><figcaption class="pic-cap">
+    <!--place here what the video is about -->
+</figcaption>
             </figue>
         </aside>
     
@@ -75,15 +86,13 @@
     
     
     
-    <footer>
-        <div>
-            <a>home link</a>
-            <a>
-                <!--<li>UNCEP</li>
-                <li>NASA</li>
-                <li>World Wildlife Organization</li>-->
-            </a>
-        </div>
+    <footer class="d-flex justify-content-between">
+       <a href="#top">Back to top of page</a>
+            <!--<a>-->
+            <!--    <li>UNCEP</li>-->
+            <!--    <li>NASA</li>-->
+            <!--    <li>World Wildlife Organization</li>-->
+            <!--</a>-->
     </footer>
 </body>
 
