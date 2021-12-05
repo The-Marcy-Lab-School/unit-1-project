@@ -36,6 +36,7 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 * Start early. No matter when you begin, you will not feel like you will have enough time!
 * Push yourself. This is the time to experiment with the more advanced techniques that you've been curious about. Don't be afraid to stretch yourself!
 * That said, less is more. Pushing yourself should not come at the expense of your client. Take pride in being a _designer_ for this project.
+* **Use a CSS Library** Do not create your own CSS from stratch! You can add additional custom CSS, but start with a library like [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/), [Semantic](https://semantic-ui.com/), [Bulma](https://bulma.io/), or any other CSS Library. This will **save you so much time** as if gives you beautiful, consistent styling out-of-the-box!
 * For those less comfortable in your design skills, check out the resources below. 
 
 ### Design Resources
