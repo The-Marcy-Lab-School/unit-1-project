@@ -33,9 +33,3 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 * [Retro Block Theme CSS](https://thesephist.github.io/blocks.css/)
 * You can also reach for a CSS Framework such as [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) or [Materialize](https://materializecss.com/) if you explored them this week.
 * If you come across any others, please submit a pull request so that I can include them here!
-
-## Key Dates
-* **Monday, October 18** - Social Issue Proposal Submitted 
-* **Tuesday, October 19** - Design Mockup completed
-* **Thursday, October 21** - [_MVP_](https://www.freecodecamp.org/news/what-the-hell-does-minimum-viable-product-actually-mean-anyway-7d8f6a110f38/) Due
-* **Monday, October 25 at 9AM** - Final Project and Project Presentations Due!
