@@ -24,15 +24,13 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 ### Tips
 * Start early. No matter when you begin, you will not feel like you will have enough time!
 * Focusing on building out an [MVP](https://www.agilx.com/defining-the-mvp/) (Minimum Viable Product)
-* **Use a CSS Library** Do not create your own CSS from stratch! You can add additional custom CSS, but start with a library like [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/), [Semantic](https://semantic-ui.com/), [Bulma](https://bulma.io/), or any other CSS Library. This will **save you so much time** as if gives you beautiful, consistent styling out-of-the-box!
+* **Use a CSS Library** Do not create your own CSS from stratch! You can add additional custom CSS, but start with a library like [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/), [Semantic](https://semantic-ui.com/), [Bulma](https://bulma.io/), [Materialize](https://materializecss.com/), or any other CSS Library. This will **save you so much time** as if gives you beautiful, consistent styling out-of-the-box!
 * Push yourself. This is the time to experiment with the more advanced techniques that you've been curious about. Don't be afraid to stretch yourself!
 * That said, less is more. Pushing yourself should not come at the expense of your client. Take pride in being a _designer_ for this project.
-* For those less comfortable in your design skills, check out the resources below. 
+* In addition to using a CSS Library, you can check out the resources below to hone your design skills. 
 
 ### Design Resources
 * [Vector Patterns](https://lstore.graphics/paaatterns/)
 * [Color Palette Selector](Coolors.co)
 * [Open Source Illustrations](https://undraw.co/)
 * [Retro Block Theme CSS](https://thesephist.github.io/blocks.css/)
-* You can also reach for a CSS Framework such as [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) or [Materialize](https://materializecss.com/) if you explored them this week.
-* If you come across any others, please submit a pull request so that I can include them here!
