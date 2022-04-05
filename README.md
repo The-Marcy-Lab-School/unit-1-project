@@ -16,14 +16,15 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 2. Perform initial research on this social issue. Each person in your group will find relevant information on the issue and bring it back to the group for review. Together, you will decide what information should be highlighted in your website.
 3. After you have performed your initial research, you will create a wireframe or mockup for your website. This will serve as the creative guide or outline for what you will build using HTML and CSS. **Your home page should be in an `index.html` file.**
 4. When you have completed your website, your group will prepare a brief presentation in Google Slides in order to tell the story of the creation of your website. You will discuss the challenges and solutions that each member of the team had to overcome in order to ship the final version of your website.
-5. We will present our websites on Monday, October 25. 🎉
+5. We will present our websites at the conclusion of Project Week. 🎉
 
 
 ### Tips
 * Start early. No matter when you begin, you will not feel like you will have enough time!
+* Focusing on building out an [MVP](https://www.agilx.com/defining-the-mvp/) (Minimum Viable Product)
+* **Use a CSS Library** Do not create your own CSS from stratch! You can add additional custom CSS, but start with a library like [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/), [Semantic](https://semantic-ui.com/), [Bulma](https://bulma.io/), or any other CSS Library. This will **save you so much time** as if gives you beautiful, consistent styling out-of-the-box!
 * Push yourself. This is the time to experiment with the more advanced techniques that you've been curious about. Don't be afraid to stretch yourself!
 * That said, less is more. Pushing yourself should not come at the expense of your client. Take pride in being a _designer_ for this project.
-* **Use a CSS Library** Do not create your own CSS from stratch! You can add additional custom CSS, but start with a library like [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/), [Semantic](https://semantic-ui.com/), [Bulma](https://bulma.io/), or any other CSS Library. This will **save you so much time** as if gives you beautiful, consistent styling out-of-the-box!
 * For those less comfortable in your design skills, check out the resources below. 
 
 ### Design Resources
