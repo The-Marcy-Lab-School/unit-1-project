@@ -14,10 +14,10 @@
 <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
             <div class="container px-5 h-20">
-                <a class="navbar-brand" href="index.html"><img src="../images/logo.png" alt="" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand" href="../Home/Home.html"><img src="../images/logo.png" alt="" /></a>
+                <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                         <li class="nav-item"><a class="nav-link" href="../Home/Home.html">Home</a></li>
@@ -31,8 +31,13 @@
             </div>
         </nav>
         <!-- Header-->
+                        <div class="bg-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+            height: 100vh;
+            "
+            >
         <header class="bg-primary py-5 d-flex justify-content-end">
             <div class="container px-5">
+                </div>
                 <div class="row gx-5 align-items-center justify-content-between">
                     <div class="col-lg-8 col-xl-7 col-xxl-6">
                         <div class="my-5 text-center text-xl-start">
@@ -44,29 +49,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-xxl-6 d-xl-flex text-center m-0 justify-content-end">
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active data-bs-interval="500"">
-                                    <img src="../images/awareness.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item active data-bs-interval="500"">
-                                    <img src="../images/logo.png" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item active data-bs-interval="500"">
-                                    <img src="../images/background.jpg" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </header>
         <!-- Features section-->
         <section class="py-5" id="features">
             <div class="container px-5 my-5">
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0 d-flex align-items-center">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-10 mb-5 mb-lg-0 d-flex justify-content-center">
                         <h2 class="fw-bolder mb-0">A website dedicated to fighting mental illness.</h2>
                     </div>
                     <div class="col-lg-8">
@@ -207,22 +197,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Email for tips-->
-                <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
-                    <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
-                        <div class="mb-4 mb-xl-0">
-                            <div class="fs-3 fw-bold text-white">Consultation & Mental health news, delivered to you.</div>
-                            <div class="text-white-50">Sign up using your email address for the latest updates.</div>
-                        </div>
-                        <div class="ms-xl-4">
-                            <div class="input-group mb-2">
-                                <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-                                <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
-                            </div>
-                            <div class="small text-white-50">We care about privacy, and will never share your data.</div>
-                        </div>
-                    </div>
-                </aside>
             </div>
         </section>
     </main>
