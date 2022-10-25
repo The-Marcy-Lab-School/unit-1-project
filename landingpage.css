@@ -1,0 +1,29 @@
+body {
+    color: #eee;
+}
+.section{
+    
+}
+
+h1{
+    color:tan;
+}
+h4{
+    color:tan;
+}
+.navbox{
+    height:10%;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.links{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
