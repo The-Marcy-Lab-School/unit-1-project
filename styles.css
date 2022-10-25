@@ -1,0 +1,53 @@
+html,body{
+    height:100vh;
+    width:100vw;
+    
+}
+body{
+    background-color: black;
+}
+main{
+    color:white;
+    height:80%;
+    font-family: arial;
+}
+#navBar{
+    display:flex;
+    justify-content:space-between;
+    width:30%;
+}
+#logo{
+    width:50%;
+    height:100%;
+}
+nav{
+    color:white;
+    display:flex;
+    justify-content:space-between;
+}
+footer{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row-reverse;
+    height:20%;
+    background-color: grey;
+}
+#main-box{
+    display:grid;
+    grid-template-areas :
+        "left right";
+}
+.button {
+    border-radius: 15%;
+    padding:10px;
+    background-color:white;
+    
+}
+.left-side {
+    grid-area: left;
+    width:50%;
+}
+.right-side {
+    grid-area:right;
+    width:50%;
+}
