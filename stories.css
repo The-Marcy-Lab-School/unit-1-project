@@ -7,21 +7,6 @@ main {
     display: grid;
 }
 
-nav {
-    width: 100%;
-    background-color: grey;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    align-items: center;
-}
-
-.logo {
-    max-height: 30%;
-    max-width: 30%;
-    display: flex;
-    align-content: flex-end;
-}
-
 .subway-Shooting {
     
 }
