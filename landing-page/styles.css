@@ -1,0 +1,9 @@
+body {
+    margin: 0%;
+}
+
+.navbar-toggler{
+
+    justify-content: flex-end !important;
+}
+
