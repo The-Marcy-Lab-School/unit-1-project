@@ -1,0 +1,19 @@
+body{
+    background-color: red;
+}
+main{
+    width:100%;
+    background-color: blue;
+    display:grid;
+}
+nav{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    align-items:center;
+}
+.logo{
+    max-height: 30%;
+    max-width: 30%;
+    display: flex;
+    align-content: flex-end;
+}
