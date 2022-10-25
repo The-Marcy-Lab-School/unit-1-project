@@ -5,7 +5,8 @@
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
-    opacity: 0.9;
+    opacity: 0.5;
+    border-radius: 0px;
 }
 
 /* Add a gray color to all navbar links */
@@ -14,11 +15,20 @@
     color: #d5d5d5 !important;
 }
 
+button.navbar-toggler {
+    border-color: antiquewhite;
+}
+
 /* On hover, the links will turn white */
 .navbar-nav li a:hover {
     color: #fff !important;
     background-color: grey !important;
 
+}
+
+.navbar-toggler:focus {
+    background-color: #fff;
+    box-shadow: none;
 }
 
 /* The active link */
@@ -36,10 +46,18 @@
 .navbar .navbar-toggle {
     border-color: #f5f5f5;
 }
-.navbar-toggle .icon-bar{
+
+.navbar-toggle .icon-bar {
     background-color: #f5f5f5;
 }
 
+.navbar-collapse {
+    text-align: center;
+}
+
+/*span.navbar-toggler-icon{*/
+/*    color: red;*/
+/*}*/
 Dropdown .open .dropdown-toggle {
     color: #fff;
     background-color: #555 !important;
