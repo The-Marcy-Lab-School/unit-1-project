@@ -2,7 +2,7 @@ section{
     justify-content: center;
 }
 
-img{
+img2{
     border-radius: 360px;
 }
 
@@ -13,7 +13,7 @@ h1{
 }
 
 .nav-link{
-    color: pink;
+    color: white;
 }
 
 .navbar{

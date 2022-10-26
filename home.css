@@ -1,0 +1,28 @@
+.nav-link{
+    color: white;
+}
+
+.img3{
+    position: absolute;
+}
+
+h1{
+    font-family: lemon-milk;
+}
+
+.btn{
+    background-color: white;
+    border-radius: 0px;
+    height: 45px;
+    width: 157px;
+    color: red;
+}
+
+.behind-button{
+    border: 1px solid white;
+    height: 45px;
+    width: 157px;
+    position: relative;
+    top: -40px;
+    right: -5px;
+}
