@@ -1,8 +1,41 @@
+section{
+    justify-content: center;
+}
+
 img{
-    height: 30%;
-    width: 30%;
     border-radius: 360px;
 }
-.navbar-nav{
-    align-items: flex-end;
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top:1%;
+}
+
+.nav-link{
+    color: pink;
+}
+
+.navbar{
+    background-color: grey;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav2{
+   display: flex; 
+   justify-content: flex-end;
+}
+
+a{
+    margin: 3px;
+}
+
+footer{
+    margin-top: 1%;
+    background-color: grey;
 }
