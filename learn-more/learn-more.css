@@ -1,0 +1,27 @@
+#row1 {
+    background-color: #FFBC42;
+}
+
+#row2 {
+    background-color: #D81159;
+}
+
+#row3 {
+    background-color: #0496FF;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    #col1, #col3, #col8 {
+        background-color: #FFBC42; 
+    } /*yellow*/
+    
+    #col2, #col4, #col6 {
+        background-color: #D81159;
+    } /*red*/
+    
+    #col5, #col7, #col9 {
+        background-color: #0496FF;
+    } /*blue*/
+}
