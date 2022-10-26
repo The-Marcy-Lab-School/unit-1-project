@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+.title>h2 {
+        padding: 1% 35%;
+    max-width: 100%;
+
+    color: white;
+    background-color: #8F2D56;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.navbar {
+    background-color: #006BA6;
+    width: 100vw;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+
+}
+
+#Sex-Edvideo {
+    display: flex;
+    flex-direction: column;
+}
+
+.lower-three {
+    display: flex;
+    justify-content: center;
+    background-color: #0496FF;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+
+}
