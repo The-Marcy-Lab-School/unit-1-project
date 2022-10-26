@@ -1,3 +1,18 @@
+i {
+    color: white;
+}
+
+nav {
+    background-color: #8F2D56;
+}
+
+h2 {
+    background-color: #006BA6;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
 #row1 {
     background-color: #FFBC42;
 }
@@ -12,7 +27,7 @@
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 991.98px) {
     #col1, #col3, #col8 {
         background-color: #FFBC42; 
     } /*yellow*/
