@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    font-family: Georgia, serif;
 }
 
 .navbar-toggler{
@@ -7,3 +8,140 @@ body {
     justify-content: flex-end !important;
 }
 
+nav{
+    background-color: #006BA6;
+}
+
+.title{
+margin: 12% 0%;    
+}
+
+.photo-one{
+    max-width: 100%;
+    height: auto;
+}
+
+.landing-row-1{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+}
+
+.landing-row-2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center;
+    text-align: center;
+}
+
+.landing-mission-statement{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+}
+
+.landing-row-1-col-2{
+    min-width:90%;
+}
+
+.landing-row-2-col-2{
+    min-width:90%;
+}
+.image-2-container{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-two{
+    margin: 0;
+    max-width: 150%;
+    height: auto;
+}
+
+.resource{
+    border: 7px solid #006BA6;
+    border-radius: 10px;
+    color: white;
+    background-color: #8F2D56;
+    margin-top: 10%;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+    margin: 0%;
+    font-family: Georgia, serif;
+}
+
+.navbar-toggler{
+
+    justify-content: flex-end !important;
+}
+
+nav{
+    background-color: #006BA6;
+}
+
+.title{
+margin: 5% 0% 0% 0%;    
+}
+
+.photo-one{
+    max-width: 100%;
+    height: auto;
+}
+
+.landing-row-1{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+}
+
+.landing-row-2{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+}
+
+.landing-mission-statement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.landing-row-1-col-2{
+    min-width: 25%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+}
+
+.landing-row-2-col-2{
+    min-width: 25%;
+    margin-left: 0%;
+    margin-bottom: -4%;
+}
+
+.photo-two{
+    
+    max-width: 100%;
+    height: auto;
+    
+}
+    
+
+.resource{
+    border: 7px solid #006BA6;
+    border-radius: 10px;
+    color: white;
+    background-color: #8F2D56;
+    margin-top: 10%;
+}
+
+}
