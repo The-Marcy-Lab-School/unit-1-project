@@ -1,0 +1,23 @@
+* {
+        margin:0;
+    }
+
+body {
+    margin: 0%;
+    font-family: Georgia, serif;
+}
+
+.navbar-toggler{
+
+    justify-content: flex-end !important;
+}
+
+nav{
+    background-color: #8F2D56;
+}
+
+.dove{
+    color: white;
+    width: 4%;
+    padding-left: 1%;
+}
