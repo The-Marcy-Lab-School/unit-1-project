@@ -1,9 +1,31 @@
-footer{
+body{
+    zoom:150%;
+    background-image: linear-gradient(darkgreen,lightgreen)!important;
+}
+footer {
     background-color: #668F80;
 }
-footer nav-link{
+
+footer nav-link {
     color: white;
 }
-div .container{
+
+div .container {
     padding-left: 10px;
+}
+header {
+    background-color: darkgreen;
+    margin-bottom:2em;
+}
+h1 {
+    text-align: center;
+}
+/*.row{*/
+/*    background-image: linear-gradient(green,lightgreen);*/
+/*}*/
+
+@media all and (max-width: 370px) {
+   footer {
+        text-align:center !important; 
+    }
 }

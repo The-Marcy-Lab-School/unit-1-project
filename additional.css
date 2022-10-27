@@ -15,3 +15,9 @@ img{
 .articles{
     display: grid;
 }
+footer{
+    background-color: #668F80;
+}
+footer nav-link{
+    color: white;
+}
