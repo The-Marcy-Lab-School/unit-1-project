@@ -7,8 +7,12 @@ body{
     min-width: 450px;
     margin-right: 5px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #adb5bd;
      background-color: #E6CCB2 
+=======
+     background-color: #e6ccb2 !important;
+>>>>>>> master
 =======
      background-color: #e6ccb2 !important;
 >>>>>>> master
@@ -31,6 +35,9 @@ body{
 =======
     /*background-color: #adb5bd;*/
      background-color: #e6ccb2 !important;
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 }
 
@@ -64,13 +71,19 @@ body{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .card.title{
     background-color: black;
 }
 =======
+=======
+>>>>>>> master
 .navbar{
    text-color: tan;
    background-color: #B08968;
 }
 
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
