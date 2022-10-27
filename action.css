@@ -1,41 +1,33 @@
-section{
-    justify-content: center;
-}
-
-img2{
-    border-radius: 360px;
-}
-
-h1{
+.section_1{
     display: flex;
-    justify-content: center;
-    margin-top:1%;
+    width: 100%;
+    background-color: #BC2C3D;
+    color: #F8F3E6;
 }
-
-.nav-link{
-    color: white;
+.steps {
+    margin-left: 5em;
+    margin-top: 5em;
 }
-
-.navbar{
-    background-color: grey;
+.stepsp {
+    width: 60%;
 }
-
-form{
+.banGunsImg{
+    width: 10%;
+    margin-right: 5em;
+}
+.section_2{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F8F3E6;
+    color: #BC2C3D;
 }
-
-.nav2{
-   display: flex; 
-   justify-content: flex-end;
+.footsteps{
+   width: 10%;
+   margin-left: 5em;
 }
-
-a{
-    margin: 3px;
-}
-
-footer{
-    margin-top: 1%;
-    background-color: grey;
+.section_2_texts{
+    width: 60%;
+    margin-right: 5em;
+    margin-top: 5em;
 }
