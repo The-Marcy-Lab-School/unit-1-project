@@ -80,3 +80,9 @@ main {
     width: 100%;
     max-height: 200px;
 }
+footer{
+    background-color: #668F80;
+}
+footer nav-link{
+    color: white;
+}
