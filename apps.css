@@ -20,7 +20,7 @@ body{
     background-color: #112D32;
 }
 .card{
-    background-color: #E6CCB2 !important;
+   
     animation-name: fadeInDown;
     animation-duration:3s;
 
