@@ -9,6 +9,9 @@ footer{
     background-color: #aad9a6;
 }
 img{
-    height:;
+    height:auto;
     width: auto;
+}
+.articles{
+    display: grid;
 }
