@@ -1,41 +1,8 @@
-section{
-    justify-content: center;
+.steps {
+    width: 100%;
+    background-color: #BC2C3D;
+    color: #F8F3E6;
 }
-
-img2{
-    border-radius: 360px;
-}
-
-h1{
-    display: flex;
-    justify-content: center;
-    margin-top:1%;
-}
-
-.nav-link{
-    color: white;
-}
-
-.navbar{
-    background-color: grey;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.nav2{
-   display: flex; 
-   justify-content: flex-end;
-}
-
-a{
-    margin: 3px;
-}
-
-footer{
-    margin-top: 1%;
-    background-color: grey;
+.stepsp {
+    width: 60%;
 }
