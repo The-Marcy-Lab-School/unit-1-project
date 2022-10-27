@@ -2,9 +2,7 @@
 .section{
     
 }
-main{
-    margin: 10px;
-}
+
 h1{
     color:tan;
 }
@@ -41,7 +39,7 @@ h4{
     text-color: white;
 }
 .navbar-nav{
-  background-color: tan;
+  background-color: #B08968;
 }
 
 .winter{
@@ -49,6 +47,6 @@ h4{
 }
 .navbar{
    text-color: tan;
-   background-color: tan;
+   background-color: #B08968;
 }
 

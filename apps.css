@@ -12,7 +12,7 @@
 }
 
 main{
-    background-color: #112D32;
+    background-color: #DDB892;
     
 }
 
@@ -20,7 +20,7 @@ body{
     background-color: #112D32;
 }
 .card{
-    background-color: #88BDBC!important;
+    background-color: #E6CCB2 !important;
     animation-name: fadeInDown;
     animation-duration:3s;
 
@@ -29,7 +29,7 @@ body{
 
 .title{
     max-width:100%;
-    background-color:#88BDBC ;
+    background-color:#E6CCB2 ;
     display:flex;
     justify-content:center;
 }
