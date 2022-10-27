@@ -3,12 +3,6 @@
     
 }
 
-h1{
-    color:tan;
-}
-h4{
-    color:tan;
-}
 .navbox{
     height:10%;
 }
@@ -28,7 +22,7 @@ h4{
 }
   .carousel-inner{
     margin: 0 auto ;
-  width:95%;
+  width:99%;
   
   
 }
@@ -47,4 +41,9 @@ h4{
    text-color: tan;
    background-color: #B08968;
 }
+main{
+    background-color: #DDB892;
+    
+}
+
 

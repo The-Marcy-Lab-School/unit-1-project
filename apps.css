@@ -23,7 +23,7 @@ body{
    
     animation-name: fadeInDown;
     animation-duration:3s;
-
+    background-color: #e6ccb2 !important;
 }
 
 
@@ -69,4 +69,8 @@ body{
 
 .card-title{
     text-align: center;
+}
+.navbar{
+   text-color: tan;
+   background-color: #B08968;
 }
