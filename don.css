@@ -1,12 +1,13 @@
 body{
-    /*background-color: ;*/
+    background-color:#DDB892 ;
 }
 
 .card-body {
     min-height: 300px;
     min-width: 450px;
     margin-right: 5px;
-    /*background-color: #adb5bd;*/
+    background-color: #adb5bd;
+    
     
 }
 
@@ -46,3 +47,4 @@ body{
         /*overflow-wrap: normal;*/
 
 }
+
