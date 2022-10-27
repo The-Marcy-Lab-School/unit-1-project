@@ -7,16 +7,21 @@ body{
     min-width: 450px;
     margin-right: 5px;
     background-color: #adb5bd;
+     background-color: #E6CCB2 
     
     
 }
 
-.card-body2 {
+.card {
     min-height: 300px;
-    min-width: 400px;
+    min-width: 450px;
     margin-right: 5px;
     /*margin-bottom: 10px;*/
-    /*background-color: #adb5bd;*/
+    background-color: #adb5bd;
+    padding: 20px;
+     background-color: #E6CCB2 
+     
+    
 }
 
 .btn{
@@ -48,3 +53,6 @@ body{
 
 }
 
+.card.title{
+    background-color: black;
+}
