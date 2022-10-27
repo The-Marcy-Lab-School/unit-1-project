@@ -21,3 +21,27 @@ nav{
     width: 4%;
     padding-left: 1%;
 }
+
+
+.footer{
+    background-color: #006BA6;
+    padding: 3% 0%;
+}
+
+.dove-bottom{
+    color: white;
+    padding: 2% 0% 0% 20%;
+    
+}
+
+.footer-contact{
+    color: white;
+    text-align: right;
+    padding-right: 8%;
+}
+
+.footer-contact>a{
+    text-decoration: none;
+    color:white;
+    padding-right: 3%;
+}
