@@ -8,7 +8,41 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Shelter/Pantries</title>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#bkImg").click(function(){
+    $(".bkText").slideToggle();
+  });
+  $("#manImg").click(function(){
+    $(".manText").slideToggle();
+  });
+  $("#qnsImg").click(function(){
+    $(".qnsText").slideToggle();
+  });
+  $("#bxImg").click(function(){
+    $(".bxText").slideToggle();
+  });
+  $("#siImg").click(function(){
+    $(".siText").slideToggle();
+  });
+  $("#bkImg2").click(function(){
+    $(".bkText2").slideToggle();
+  });
+  $("#manImg2").click(function(){
+    $(".manText2").slideToggle();
+  });
+  $("#qnsImg2").click(function(){
+    $(".qnsText2").slideToggle();
+  });
+  $("#bxImg2 ").click(function(){
+    $(".bxText2").slideToggle();
+  });
+  $("#siImg2").click(function(){
+    $(".siText2").slideToggle();
+  });
+});
+</script>
 
 </head>
 
@@ -22,10 +56,10 @@
             <div class="row">
                 <div class="col">
                     <div class="card animate__fadeInDown" style="width: 15rem">
-                        <img src="https://edc.nyc/sites/default/files/styles/16x9_md/public/2019-05/borough-brooklyn-header-prospect-heights-photo-marley-white-nyc-and-company.jpg?h=70728b31&itok=3xcQgCyC" class="card-img-top" alt="picture of">
-                        <div class="card-body">
-                            <h5 class="card-title">Brooklyn</h5>
-                            <p class="card-text">
+                        <img id="bkImg" src="https://edc.nyc/sites/default/files/styles/16x9_md/public/2019-05/borough-brooklyn-header-prospect-heights-photo-marley-white-nyc-and-company.jpg?h=70728b31&itok=3xcQgCyC" class="card-img-top" alt="picture of">
+                        <h5 class="card-title">Brooklyn</h5>
+                        <div class="card-body bkText" style="display:none;">
+                            <p class="card-text ">
                             <ul>
                                 <li>The Kensington Family Shelter
                                     Address: 385 McDonald Ave, Brooklyn, NY 11218
@@ -55,9 +89,10 @@
                 </div>
                 <div class="col">
                     <div class="card" style="width: 15rem;">
-                        <img src="https://www.tripsavvy.com/thmb/neRqtpzJbtGQvj2XEBH27nMV8n4=/2844x1896/filters:fill(auto,1)/Intro-Lower-Manhattan-NYC-Company-Kate-Glicksberg-588fd20f5f9b5874ee6b1b90-10bcbd6f8bb2409fb7fce857dedcde22.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Manhattan</h5>
+                        <img id="manImg" src="https://www.tripsavvy.com/thmb/neRqtpzJbtGQvj2XEBH27nMV8n4=/2844x1896/filters:fill(auto,1)/Intro-Lower-Manhattan-NYC-Company-Kate-Glicksberg-588fd20f5f9b5874ee6b1b90-10bcbd6f8bb2409fb7fce857dedcde22.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title">Manhattan</h5>
+                        <div class="card-body manText" style="display:none;">
+                            
                             <p class="card-text">
                             <ul>
                                 <li>
@@ -85,9 +120,9 @@
                 </div>
                 <div class="col">
                     <div class="card" style="width: 15rem;">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Go4-lfuiX_0gc6qOWIKEiIp1MdRA3zQ7O-DdHRwFxMbIKsFMaY1C5XBZAMdyQ8SdJ5o&usqp=CAU" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Queens</h5>
+                        <img id="qnsImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Go4-lfuiX_0gc6qOWIKEiIp1MdRA3zQ7O-DdHRwFxMbIKsFMaY1C5XBZAMdyQ8SdJ5o&usqp=CAU" class="card-img-top" alt="...">
+                        <h5 class="card-title">Queens</h5>
+                        <div class="card-body qnsText" style="display:none">
                             <p class="card-text">
                             <ul>
                                 <li>
@@ -117,9 +152,9 @@
                 </div>
                 <div class="col">
                     <div class="card" style="width: 15rem;">
-                        <img src="http://static1.squarespace.com/static/568af8d2d82d5e25a610856b/568c331fc647ad1e5182f76b/5c783899971a18387017d3c3/1562701502811/shutterstock_139683727.jpg?format=1500w" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Bronx</h5>
+                        <img id="bxImg"src="http://static1.squarespace.com/static/568af8d2d82d5e25a610856b/568c331fc647ad1e5182f76b/5c783899971a18387017d3c3/1562701502811/shutterstock_139683727.jpg?format=1500w" class="card-img-top" alt="...">
+                        <h5 class="card-title">Bronx</h5>
+                        <div class="card-body bxText" style="display:none">
                             <p class="card-text">
                             <ul>
                                 <li>
@@ -150,18 +185,15 @@
 
                 <div class="col">
                     <div class="card" style="width: 15rem;">
-                        <img src="https://a.broer.no/data/b/b87_2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Staten Island</h5>
+                        <img id="siImg" src="https://newyorktruckstop.com/wp-content/uploads/2020/11/shutterstock_1305349357.jpg" class="card-img-top" alt="...">
+                        <h5 class="card-title">Staten Island</h5>
+                        <div class="card-body siText" style="display:none">
                             <p class="card-text">
                             <ul>
                                 <li>Project Hospitality Family Shelter
                                     Address: 100 Central Ave, Staten Island, NY 10301
                                     Phone: (718) 720-2233
                                 </li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
                             </ul>
                             </p>
                         </div>
@@ -177,9 +209,9 @@
             <div class="row">
                 <div class="col">
                     <div class="card" style="width: 15rem;">
-                        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/03/07/11/brooklyn-manhattan-bridge.jpg?quality=75&width=982&height=726&auto=webp" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Brooklyn</h5>
+                        <img id="bkImg2"src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/03/07/11/brooklyn-manhattan-bridge.jpg?quality=75&width=982&height=726&auto=webp" class="card-img-top" alt="">
+                        <h5 class="card-title">Brooklyn</h5>
+                        <div class="card-body bkText2" style="display:none">
                             <p class="card-text">
                             <ul>
                                 <li>Fernande Valme Ministries - Food Distribution Center
@@ -202,9 +234,9 @@
                 </div>
                 <div class="col">
                     <div class="card" style="width: 15rem;">
-                        <img src="https://vinepair.com/wp-content/uploads/2022/08/drinking-guide-manhattan-google.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Manhattan</h5>
+                        <img id="manImg2"src="https://vinepair.com/wp-content/uploads/2022/08/drinking-guide-manhattan-google.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title">Manhattan</h5>
+                        <div class="card-body manText2" style="display:none">
                             <p class="card-text">
                             <ul>
                                 <li>The Urban Outreach Center of NYC
@@ -230,9 +262,9 @@
                 </div>
                 <div class="col">
                     <div class="card" style="width: 15rem;">
-                        <img src="https://www.elikarealestate.com/blog/wp-content/uploads/2020/01/queens-ny.jpeg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Queens</h5>
+                        <img id="qnsImg2" src="https://www.elikarealestate.com/blog/wp-content/uploads/2020/01/queens-ny.jpeg" class="card-img-top" alt="">
+                        <h5 class="card-title">Queens</h5>
+                        <div class="card-body qnsText2" style="display:none">
                             <p class="card-text">
                             <ul>
                                 <li>Hour Children Community Outreach and Food Pantry
@@ -259,9 +291,9 @@
                 </div>
                 <div class="col">
                     <div class="card" style="width: 15rem;">
-                        <img src="https://a.cdn-hotels.com/gdcs/production198/d1814/d56e4c74-94bb-4fd3-80ec-8ef7169a809d.jpg?impolicy=fcrop&w=800&h=533&q=medium" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Bronx</h5>
+                        <img id="bxImg2"src="https://a.cdn-hotels.com/gdcs/production198/d1814/d56e4c74-94bb-4fd3-80ec-8ef7169a809d.jpg?impolicy=fcrop&w=800&h=533&q=medium" class="card-img-top" alt="">
+                        <h5 class="card-title">Bronx</h5>
+                        <div class="card-body bxText2" style="display:none">
                             <p class="card-text">
                             <ul>
                                 <li>Black Forum of Co-op City Emergency Food Pantry
@@ -284,9 +316,9 @@
                 </div>
                 <div class="col">
                     <div class="card" style="width: 15rem;">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSJqBZn5EHIgmDk9pwAQXHggcQu-lJM2kdqg&usqp=CAU" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Staten Island</h5>
+                        <img id="siImg2"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSJqBZn5EHIgmDk9pwAQXHggcQu-lJM2kdqg&usqp=CAU" class="card-img-top" alt="...">
+                        <h5 class="card-title">Staten Island</h5>
+                        <div class="card-body siText2" style="display:none">
                             <p class="card-text">
                             <ul>
                                 <li>St Edward Food Pantry
