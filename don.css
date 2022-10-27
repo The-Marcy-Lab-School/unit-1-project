@@ -1,3 +1,48 @@
 body{
-    background-color: grey;
+    /*background-color: ;*/
+}
+
+.card-body {
+    min-height: 300px;
+    min-width: 450px;
+    margin-right: 5px;
+    /*background-color: #adb5bd;*/
+    
+}
+
+.card-body2 {
+    min-height: 300px;
+    min-width: 400px;
+    margin-right: 5px;
+    /*margin-bottom: 10px;*/
+    /*background-color: #adb5bd;*/
+}
+
+.btn{
+    margin-top: auto;
+}
+
+
+.btn2{
+    /*margin-left: ;*/
+    width:90%;
+    margin:auto;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /*white-space: nowrap;*/
+
+  
+}
+
+/*.card {*/
+/*    display: inline-block;*/
+/*  }*/
+  
+.hello{
+    /*display: block;*/
+        /*overflow-wrap: normal;*/
+
 }
