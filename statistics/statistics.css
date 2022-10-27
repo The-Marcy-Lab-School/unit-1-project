@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
 }
@@ -6,10 +11,10 @@ main {
     width: 100%;
 }
 
-.title>h2 {
-        padding: 1% 35%;
+.title>h3 {
+    padding: 1% 45%;
     max-width: 100%;
-
+    text-align: center;
     color: white;
     background-color: #006BA6;
     font-family: "Times New Roman", Times, serif;
@@ -35,10 +40,38 @@ main {
 }
 
 .lower-three {
-    display: flex;
-    justify-content: center;
-    background-color: #0496FF;
+    background-color: #8F2D56;
     color: white;
     font-family: "Times New Roman", Times, serif;
 
+}
+
+.dove {
+    color: white;
+    width: 4%;
+    padding-left: 1%;
+}
+
+
+.footer {
+    background-color: #006BA6;
+    padding: 3% 0%;
+}
+
+.dove-bottom {
+    color: white;
+    padding: 2% 0% 0% 20%;
+
+}
+
+.footer-contact {
+    color: white;
+    text-align: right;
+    padding-right: 8%;
+}
+
+.footer-contact>a {
+    text-decoration: none;
+    color: white;
+    padding-right: 3%;
 }
