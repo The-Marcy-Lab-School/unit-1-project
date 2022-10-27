@@ -7,6 +7,11 @@ h2 {
     color: white;
     display: flex;
     justify-content:center;
+    padding: 5%;
+}
+
+#top {
+    padding: 5%;
 }
 
 #row1, #row4 {
