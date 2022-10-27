@@ -6,8 +6,12 @@ body{
     min-height: 300px;
     min-width: 450px;
     margin-right: 5px;
+<<<<<<< HEAD
     background-color: #adb5bd;
      background-color: #E6CCB2 
+=======
+     background-color: #e6ccb2 !important;
+>>>>>>> master
     
     
 }
@@ -16,12 +20,18 @@ body{
     min-height: 300px;
     min-width: 450px;
     margin-right: 5px;
+    padding: 20px;
     /*margin-bottom: 10px;*/
+<<<<<<< HEAD
     background-color: #adb5bd;
     padding: 20px;
      background-color: #E6CCB2 
      
     
+=======
+    /*background-color: #adb5bd;*/
+     background-color: #e6ccb2 !important;
+>>>>>>> master
 }
 
 .btn{
@@ -53,6 +63,14 @@ body{
 
 }
 
+<<<<<<< HEAD
 .card.title{
     background-color: black;
 }
+=======
+.navbar{
+   text-color: tan;
+   background-color: #B08968;
+}
+
+>>>>>>> master

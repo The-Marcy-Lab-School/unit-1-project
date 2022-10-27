@@ -3,10 +3,13 @@
     
 }
 
+<<<<<<< HEAD
 /*h1{*/
 /*    color:tan;*/
 /*}*/
 
+=======
+>>>>>>> master
 .navbox{
     height:10%;
 }
@@ -26,7 +29,7 @@
 }
   .carousel-inner{
     margin: 0 auto ;
-  width:95%;
+  width:99%;
   
   
 }
@@ -45,4 +48,9 @@
    text-color: tan;
    background-color: #B08968;
 }
+main{
+    background-color: #DDB892;
+    
+}
+
 
