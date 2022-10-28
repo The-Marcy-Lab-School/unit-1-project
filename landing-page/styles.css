@@ -199,6 +199,10 @@ hr{
      font-weight: 400;
 }
 
+p{
+    font-size: 1.20em;
+}
+
 @media only screen and (min-width: 600px) {
     *{
         margin:0;
@@ -327,6 +331,11 @@ min-width: 25%;
     color:white;
     padding-right: 3%;
 }
+
+p{
+    font-size: 1.25em;
+}
+
 
 
 }
