@@ -23,6 +23,7 @@ main {
     background-color: #FFBC42;
     color: darkslategray;
     padding: 4% 0%;
+    font-family: Georgia, serif;
 
 }
 
@@ -42,18 +43,7 @@ main {
     color: white;
     font-family: Georgia, serif;
     text-align: center;
-    font-size: 1.50em
-}
-
-
-h2{
-    font-size: 1.5em
-    padding: 0%, 5%;
-}
-p{
-    font-size: 1.5em
-    padding: 0%, 5%;
-    
+    font-size: 1.55em
 }
 
 .photo-one {
@@ -62,6 +52,7 @@ p{
 
 .row-two {
     background-color: #D81159;
+
 
 }
 
