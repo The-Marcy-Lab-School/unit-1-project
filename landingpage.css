@@ -1,0 +1,63 @@
+
+.navbox{
+    height:10%;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+#carousel-example-generic img{
+  width:100%;
+}
+  .carousel-inner{
+    margin: 0 auto ;
+  width:70%;
+  height:50%;
+  
+  
+  
+}
+.navbarbox{
+    background-color: #254E58;
+    text-color: white;
+}
+.navbar-nav{
+  background-color: #B08968;
+}
+
+.winter{
+    height:50%;
+}
+.navbar{
+   text-color: tan;
+   background-color: #B08968;
+}
+main{
+    background-color: #DDB892;
+    
+}
+.carousel{
+    margin-top: 30px;
+}
+.carouselimg{
+    height:500px;
+}
+
+.splitpage{
+    height:100px;
+    width:100%;
+}
+
+.showcase-img{
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.desc-img{

@@ -1,0 +1,76 @@
+.container1{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 4%
+    
+}
+
+.container2{
+   display:flex; 
+   justify-content:center;
+   margin-bottom: 4%
+}
+
+main{
+    background-color: #DDB892;
+    
+}
+
+body{
+    background-color: #112D32;
+}
+.card{
+   
+    animation-name: fadeInDown;
+    animation-duration:3s;
+    background-color: #e6ccb2 !important;
+}
+
+
+.title{
+    max-width:100%;
+    background-color:#E6CCB2 ;
+    display:flex;
+    justify-content:center;
+}
+
+.row{
+    margin-top:4% !important;
+}
+
+#bkImg{
+    width:239px;
+    height:160px;
+}
+#qnsImg{
+    width:239px;
+    height:160px;
+}
+
+#bxImg{
+    width:239px;
+    height:160px;
+}
+
+#bkImg2{
+    width:239px;
+    height:160px;
+}
+
+#manImg2{
+    width:239px;
+    height:160px;
+}
+
+#siImg2{
+    width:239px;
+    height:160px;
+}
+
+.card-title{
+    text-align: center;
+}
+.navbar{
+   text-color: tan;
+   background-color: #B08968;
+}
