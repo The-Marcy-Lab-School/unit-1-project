@@ -1,0 +1,27 @@
+.side-bar{
+    background-color:#f0f0f0 ;
+}
+section{
+   background-color: 
+#d6d6d6;
+}
+footer{
+    background-color: #aad9a6;
+}
+img{
+    height:auto;
+    width: auto;
+}
+.articles{
+    display: grid;
+}
+footer{
+    background-color: #668F80;
+}
+footer nav-link{
+    color: white;
+}
+.col-4{
+    background-color: #f0f0f0;
+}
+
