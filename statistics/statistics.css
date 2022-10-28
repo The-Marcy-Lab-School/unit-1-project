@@ -11,16 +11,6 @@ main {
     width: 100%;
 }
 
-/*.title>h3 {*/
-/*    padding: 1% 45%;*/
-/*    max-width: 100%;*/
-/*    text-align: center;*/
-/*    color: white;*/
-/*    background-color: #006BA6;*/
-/*    font-family: "Times New Roman", Times, serif;*/
-
-/*}*/
-
 .navbar {
     background-color: #8F2D56;
     width: 100vw;
@@ -31,48 +21,61 @@ main {
     justify-content: center;
     max-width: 100%;
     background-color: #FFBC42;
-     color: darkslategray;
+    color: darkslategray;
     padding: 4% 0%;
 
 }
 
 .video-container {
-       padding: 5% 0%;
+    padding: 5% 0%;
     display: flex;
     justify-content: center;
     background-color: #D81159;
 }
 
-.edu-video{
+.edu-video {
     max-width: 100%;
 }
 
 .lower-three {
     background-color: #8F2D56;
     color: white;
-    font-family: "Times New Roman", Times, serif;
-
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 1.50em
 }
 
-.photo-one{
+
+h2{
+    font-size: 1.5em
+    padding: 0%, 5%;
+}
+p{
+    font-size: 1.5em
+    padding: 0%, 5%;
+    
+}
+
+.photo-one {
     max-width: 100%;
 }
 
-.row-two{
+.row-two {
     background-color: #D81159;
+
 }
 
-.row-three{
+.row-three {
     background-color: #FFBC42;
     color: darkslategray;
 }
 
-.photo-two{
+.photo-two {
     max-width: 100%;
 }
 
-.photo-three{
-    
+.photo-three {
+
     max-width: 100%;
 
 }
