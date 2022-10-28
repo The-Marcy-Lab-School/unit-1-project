@@ -23,10 +23,6 @@ h4 {
     text-decoration: underline; 
 }
 
-h6 {
-    font-weight: ;
-}
-
 #top {
     padding: 5%;
     font-size: 1.25em;
@@ -35,14 +31,21 @@ h6 {
 
 #row1, #row4 {
     background-color: #FFBC42;
+    color: darkslategray;
 }
 
 #row2, #row5 {
     background-color: #D81159;
+    color: black;
 }
 
 #row3, #row6 {
-    background-color: #0496FF;
+    background-color: #006BA6;
+    color: white;
+}
+
+footer {
+    background-color: #8F2D56!important;
 }
 
 
@@ -57,7 +60,7 @@ h6 {
     } /*red*/
     
     #col5, #col7, #col9, #col14, #col16, #col18 {
-        background-color: #0496FF;
+        background-color: #006BA6;
     } /*blue*/
     
     article {
