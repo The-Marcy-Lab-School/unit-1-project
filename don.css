@@ -1,25 +1,11 @@
-<<<<<<< HEAD
-body {
-    background-color: #DDB892;
-=======
+
 body{
     background-color:#DDB892 ;
->>>>>>> master
     font-size: larger;
     /*margin: 3rem;*/
     /*padding: 50px;*/
     margin: 10px;
     column-gap: 20px;
-<<<<<<< HEAD
-
-
-
-
-}
-
-
-
-=======
     
   
     
@@ -28,23 +14,10 @@ body{
 
 
  
->>>>>>> master
 .card-body {
     min-height: 300px;
     min-width: 450px;
     margin-right: 5px;
-<<<<<<< HEAD
-    background-color: #adb5bd;
-    background-color: #e6ccb2 !important;
-    margin: 15px;
-    /*padding: 60px;*/
-    margin: 15px;
-    /*padding: 60px;*/
-
-
-
-
-=======
      background-color: #e6ccb2 !important;
      margin: 15px;
      
@@ -52,76 +25,52 @@ body{
     
      
     
->>>>>>> master
 }
 
-.card {
+.card-body2 {
     min-height: 300px;
-    min-width: 450px;
+    min-width: 400px;
     margin-right: 5px;
     padding: 20px;
     /*margin-bottom: 10px;*/
-<<<<<<< HEAD
-    background-color: #adb5bd;
-    padding: 20px;
-    
-        /*background-color: #adb5bd;*/
-    background-color: #e6ccb2 !important;
-    justify-content: space-between;
-    margin: 15px;
-
-
-
-=======
     /*background-color: #adb5bd;*/
      background-color: #e6ccb2 !important;
      justify-content: space-between;
      margin: 15px;
     
      
->>>>>>> master
 }
 
-.btn {
+.btn{
     margin-top: auto;
 }
 
 
-.btn2 {
+.btn2{
     /*margin-left: ;*/
     /*width:90%;*/
     /*margin:auto;*/
 }
 
 .scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    /*white-space: nowrap;*/
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /*white-space: nowrap;*/
 
-
+  
 }
 
 /*.card {*/
 /*    display: inline-block;*/
 /*  }*/
-
-.hello {
+  
+.hello{
     /*display: block;*/
-    /*overflow-wrap: normal;*/
+        /*overflow-wrap: normal;*/
 
 }
 
-<<<<<<< HEAD
-.card.title {
-    background-color: black;
-=======
 .navbar{
    /*text-color: tan;*/
    background-color: #B08968;
->>>>>>> master
-}
-
-.navbar {
-    /*text-color: tan;*/
-    background-color: #B08968;
 }
