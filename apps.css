@@ -17,7 +17,7 @@ main{
 }
 
 body{
-    background-color: #112D32;
+    background-color: #ddb792;
 }
 .card{
    
@@ -73,4 +73,30 @@ body{
 .navbar{
    text-color: tan;
    background-color: #B08968;
+}
+
+.instruct{
+    text-align: center;
+    background-color:#ddb792;
+    padding-top: 4%;
+}
+
+@media screen and (max-width:600px){
+    .container1{
+        display:flex;
+        padding-left:25%;
+        justify-content:space-evenly;
+        
+    }
+    
+    .container2{
+        padding-left:25%;
+        
+    }
+    
+    .card{
+        margin-top:10%;
+        
+    }
+    
 }
