@@ -11,6 +11,8 @@ footer{
 img{
     height:auto;
     width: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .articles{
     display: grid;
@@ -23,5 +25,21 @@ footer nav-link{
 }
 .col-4{
     background-color: #f0f0f0;
+}
+.text-center{
+    margin-top: 20px;
+}
+.articles.text-center{
+    margin-bottom: 30px;
+    font-size: larger;
+}
+.col-sm-12{
+    margin-top: 25px;
+}
+bio{
+padding-top: 10px;
+}
+.pic{
+    width:100%;
 }
 
