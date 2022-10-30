@@ -11,10 +11,32 @@ main {
     width: 100%;
 }
 
-.navbar {
-    background-color: #8F2D56;
-    width: 100vw;
+.navbar-toggler {
+
+    justify-content: flex-end !important;
 }
+
+.nav {
+    background-color: #8F2D56;
+    padding: 2% 5%;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.nav>a {
+    font-size: 1em;
+}
+
+.dove {
+    display: inline;
+    color: white;
+    width: 4%;
+    padding-left: 1%;
+    margin-right: 4%;
+}
+
 
 .title {
     display: flex;
@@ -50,6 +72,20 @@ main {
     max-width: 100%;
 }
 
+.row {
+    padding: 25px;
+}
+
+
+
+
+.row-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 .row-two {
     background-color: #D81159;
 
@@ -70,13 +106,6 @@ main {
     max-width: 100%;
 
 }
-
-.dove {
-    color: white;
-    width: 4%;
-    padding-left: 1%;
-}
-
 
 .footer {
     background-color: #006BA6;
@@ -99,4 +128,23 @@ main {
     text-decoration: none;
     color: white;
     padding-right: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: medium;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row-image{
+        width: 80% !important;
+    }
+    
+    img {
+        width: 100%;
+    }
+
 }
