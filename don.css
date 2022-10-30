@@ -1,41 +1,32 @@
-body{
-    background-color:#DDB892 ;
+body {
+    background-color: #DDB892;
     font-size: larger;
     /*margin: 3rem;*/
     /*padding: 50px;*/
     margin: 10px;
     column-gap: 20px;
-    
-  
-    
-    
+
+
+
+
 }
 
 
- 
+
 .card-body {
     min-height: 300px;
     min-width: 450px;
     margin-right: 5px;
-<<<<<<< HEAD
-<<<<<<< HEAD
     background-color: #adb5bd;
-     background-color: #E6CCB2 
-=======
-     background-color: #e6ccb2 !important;
-<<<<<<< HEAD
->>>>>>> master
-=======
-     background-color: #e6ccb2 !important;
->>>>>>> master
-=======
-     margin: 15px;
-     
-     /*padding: 60px;*/
->>>>>>> master
-    
-     
-    
+    background-color: #e6ccb2 !important;
+    margin: 15px;
+    /*padding: 60px;*/
+    margin: 15px;
+    /*padding: 60px;*/
+
+
+
+
 }
 
 .card {
@@ -44,71 +35,52 @@ body{
     margin-right: 5px;
     padding: 20px;
     /*margin-bottom: 10px;*/
-<<<<<<< HEAD
     background-color: #adb5bd;
     padding: 20px;
-     background-color: #E6CCB2 
-     
     
-=======
-    /*background-color: #adb5bd;*/
-     background-color: #e6ccb2 !important;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> master
-=======
-     justify-content: space-between;
-     margin: 15px;
-    
-     
->>>>>>> master
+        /*background-color: #adb5bd;*/
+    background-color: #e6ccb2 !important;
+    justify-content: space-between;
+    margin: 15px;
+
+
+
 }
 
-.btn{
+.btn {
     margin-top: auto;
 }
 
 
-.btn2{
+.btn2 {
     /*margin-left: ;*/
     /*width:90%;*/
     /*margin:auto;*/
 }
 
 .scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  /*white-space: nowrap;*/
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /*white-space: nowrap;*/
 
-  
+
 }
 
 /*.card {*/
 /*    display: inline-block;*/
 /*  }*/
-  
-.hello{
+
+.hello {
     /*display: block;*/
-        /*overflow-wrap: normal;*/
+    /*overflow-wrap: normal;*/
 
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.card.title{
+.card.title {
     background-color: black;
 }
-=======
-=======
->>>>>>> master
-.navbar{
-   /*text-color: tan;*/
-   background-color: #B08968;
-}
 
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> master
+.navbar {
+    /*text-color: tan;*/
+    background-color: #B08968;
+}
