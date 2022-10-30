@@ -1,5 +1,4 @@
 
-
 .navbox{
     height:10%;
 }
@@ -7,7 +6,6 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .links{
@@ -18,13 +16,10 @@
 #carousel-example-generic img{
   width:100%;
 }
-  .carousel-inner{
-    margin: 0 auto ;
-  width:70%;
+.carousel-inner{
+  margin: 0 auto ;
   height:50%;
-  
-  
-  
+  width:50%;
 }
 .navbarbox{
     background-color: #254E58;
@@ -41,8 +36,6 @@
    text-color: tan;
    background-color: #B08968;
 }
-main{
-}
 .carousel{
     margin-top: 30px;
 }
@@ -57,16 +50,80 @@ main{
 
 .showcase-img{
     background-repeat: no-repeat;
-    background-size: 100%
-}
-
-
-.desc-img{
-    
+    background-size: 100%;
 }
 
 body{
      background-color: #DDB892;
-     margin:5px
+     font-size: larger !important;
+}
+main{
+    margin:5px;
+}
+.showcase-text{
+    font-size: larger !important;
+}
+.text{
+ padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel{
+     width:100%;
+  }
+  body{
+     
+  }
+  #carousel-example-generic img{
+  width:100%;
+}
+
+  .navbar{
+      width:100%;
+  }
+  .control{
+      display:none !important;
+      height: 0 !important;
+      width:0 !important;
+  }
+  .carousel-inner{
+      width:100% !important;
+      margin-left:10px
+  }
+ .mobile{
+     display:none;
+ } 
+  
+}
+
+@media only screen and (max-width: 1756px) and (min-width:980px) {
+  .carousel{
+     width:100%;
+  }
+  body{
+     
+  }
+  #carousel-example-generic img{
+  width:100%;
+}
+
+  .navbar{
+      width:100%;
+  }
+  .control{
+      display:none !important;
+      height: 0 !important;
+      width:0 !important;
+  }
+  .carousel-inner{
+      width:100% !important;
+      margin-left:10px
+  }
+ 
+ .midpicture{
+     
+    height:350px;
+     width:350px;
+ }
 }
 
