@@ -24,6 +24,7 @@ body{
     animation-name: fadeInDown;
     animation-duration:3s;
     background-color: #e6ccb2 !important;
+    box-shadow: 2px 2px 2px #000;
 }
 
 
