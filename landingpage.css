@@ -42,8 +42,6 @@
    background-color: #B08968;
 }
 main{
-    background-color: #DDB892;
-    
 }
 .carousel{
     margin-top: 30px;
@@ -62,4 +60,13 @@ main{
     background-size: 100%
 }
 
+
 .desc-img{
+    
+}
+
+body{
+     background-color: #DDB892;
+     margin:5px
+}
+
