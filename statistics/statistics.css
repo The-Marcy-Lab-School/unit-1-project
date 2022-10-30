@@ -11,25 +11,25 @@ main {
     width: 100%;
 }
 
-.navbar-toggler{
+.navbar-toggler {
 
     justify-content: flex-end !important;
 }
 
-.nav{
+.nav {
     background-color: #8F2D56;
     padding: 2% 5%;
 }
 
-.navbar-brand{
-        font-size: 1.5em;
+.navbar-brand {
+    font-size: 1.5em;
 }
 
-.nav>a{
-        font-size: 1em; 
+.nav>a {
+    font-size: 1em;
 }
 
-.dove{
+.dove {
     display: inline;
     color: white;
     width: 4%;
@@ -72,16 +72,23 @@ main {
     max-width: 100%;
 }
 
-.row-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.row {
+    padding: 25px;
 }
 
 
+
+
+.row-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 .row-two {
     background-color: #D81159;
-    
+
 
 }
 
@@ -121,4 +128,23 @@ main {
     text-decoration: none;
     color: white;
     padding-right: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: medium;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row-image{
+        width: 80% !important;
+    }
+    
+    img {
+        width: 100%;
+    }
+
 }
