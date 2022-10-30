@@ -11,6 +11,11 @@ main {
     width: 100%;
 }
 
+header {
+    background-color: #8F2D56;
+    padding: 1.35rem 0%;
+}
+
 .navbar-toggler {
 
     justify-content: flex-end !important;
@@ -139,10 +144,10 @@ main {
         align-items: center;
     }
 
-    .row-image{
+    .row-image {
         width: 80% !important;
     }
-    
+
     img {
         width: 100%;
     }
