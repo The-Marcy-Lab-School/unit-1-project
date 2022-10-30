@@ -14,6 +14,7 @@ main {
 header {
     background-color: #8F2D56;
     padding: 1.35rem 0%;
+    font-family: Georgia, serif;
 }
 
 .navbar-toggler {
