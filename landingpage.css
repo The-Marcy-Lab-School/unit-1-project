@@ -1,4 +1,3 @@
-
 .navbox{
     height:10%;
 }
@@ -57,9 +56,7 @@ body{
      background-color: #DDB892;
      font-size: larger !important;
 }
-main{
-    margin:5px;
-}
+
 .showcase-text{
     font-size: larger !important;
 }
@@ -71,8 +68,8 @@ main{
   .carousel{
      width:100%;
   }
-  body{
-     
+  main{
+    margin:5px !important;
   }
   #carousel-example-generic img{
   width:100%;
@@ -88,7 +85,7 @@ main{
   }
   .carousel-inner{
       width:100% !important;
-      margin-left:10px
+      margin-left:10px !important;
   }
  .mobile{
      display:none;
@@ -96,34 +93,34 @@ main{
   
 }
 
-@media only screen and (max-width: 1756px) and (min-width:980px) {
-  .carousel{
-     width:100%;
-  }
-  body{
-     
-  }
-  #carousel-example-generic img{
-  width:100%;
-}
+/*@media only screen and (max-width: 1756px) and (min-width:980px) {*/
+/*  .carousel{*/
+/*     width:100%;*/
+/*  }*/
+/*  main{*/
+/*     margin: 5px;*/
+/*  }*/
+/*  #carousel-example-generic img{*/
+/*  width:100%;*/
+/*}*/
 
-  .navbar{
-      width:100%;
-  }
-  .control{
-      display:none !important;
-      height: 0 !important;
-      width:0 !important;
-  }
-  .carousel-inner{
-      width:100% !important;
-      margin-left:10px
-  }
+/*  .navbar{*/
+/*      width:100%;*/
+/*  }*/
+/*  .control{*/
+/*      display:none !important;*/
+/*      height: 0 !important;*/
+/*      width:0 !important;*/
+/*  }*/
+/*  .carousel-inner{*/
+/*      width:100% !important;*/
+/*      margin-left:10px*/
+/*  }*/
  
- .midpicture{
+/* .midpicture{*/
      
-    height:350px;
-     width:350px;
- }
-}
+/*    height:350px;*/
+/*     width:350px;*/
+/* }*/
+/*}*/
 
