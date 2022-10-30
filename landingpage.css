@@ -1,18 +1,4 @@
 
-.section{
-    
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*h1{*/
-/*    color:tan;*/
-/*}*/
-
-=======
->>>>>>> master
-=======
->>>>>>> master
 .navbox{
     height:10%;
 }
@@ -32,7 +18,9 @@
 }
   .carousel-inner{
     margin: 0 auto ;
-  width:99%;
+  width:70%;
+  height:50%;
+  
   
   
 }
@@ -55,5 +43,20 @@ main{
     background-color: #DDB892;
     
 }
+.carousel{
+    margin-top: 30px;
+}
+.carouselimg{
+    height:500px;
+}
 
+.splitpage{
+    height:100px;
+    width:100%;
+}
+
+.showcase-img{
+    background-repeat: no-repeat;
+    background-size: 100%
+}
 

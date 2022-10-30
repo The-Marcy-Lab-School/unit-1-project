@@ -1,7 +1,18 @@
 body{
     background-color:#DDB892 ;
+    font-size: larger;
+    /*margin: 3rem;*/
+    /*padding: 50px;*/
+    margin: 10px;
+    column-gap: 20px;
+    
+  
+    
+    
 }
 
+
+ 
 .card-body {
     min-height: 300px;
     min-width: 450px;
@@ -12,11 +23,18 @@ body{
      background-color: #E6CCB2 
 =======
      background-color: #e6ccb2 !important;
+<<<<<<< HEAD
 >>>>>>> master
 =======
      background-color: #e6ccb2 !important;
 >>>>>>> master
+=======
+     margin: 15px;
+     
+     /*padding: 60px;*/
+>>>>>>> master
     
+     
     
 }
 
@@ -36,8 +54,15 @@ body{
     /*background-color: #adb5bd;*/
      background-color: #e6ccb2 !important;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
+>>>>>>> master
+=======
+     justify-content: space-between;
+     margin: 15px;
+    
+     
 >>>>>>> master
 }
 
@@ -48,8 +73,8 @@ body{
 
 .btn2{
     /*margin-left: ;*/
-    width:90%;
-    margin:auto;
+    /*width:90%;*/
+    /*margin:auto;*/
 }
 
 .scrolling-wrapper {
@@ -79,7 +104,7 @@ body{
 =======
 >>>>>>> master
 .navbar{
-   text-color: tan;
+   /*text-color: tan;*/
    background-color: #B08968;
 }
 
