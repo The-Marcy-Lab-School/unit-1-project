@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 body {
     background-color: #DDB892;
+=======
+body{
+    background-color:#DDB892 ;
+>>>>>>> master
     font-size: larger;
     /*margin: 3rem;*/
     /*padding: 50px;*/
     margin: 10px;
     column-gap: 20px;
+<<<<<<< HEAD
 
 
 
@@ -13,10 +19,21 @@ body {
 
 
 
+=======
+    
+  
+    
+    
+}
+
+
+ 
+>>>>>>> master
 .card-body {
     min-height: 300px;
     min-width: 450px;
     margin-right: 5px;
+<<<<<<< HEAD
     background-color: #adb5bd;
     background-color: #e6ccb2 !important;
     margin: 15px;
@@ -27,6 +44,15 @@ body {
 
 
 
+=======
+     background-color: #e6ccb2 !important;
+     margin: 15px;
+     
+     /*padding: 60px;*/
+    
+     
+    
+>>>>>>> master
 }
 
 .card {
@@ -35,6 +61,7 @@ body {
     margin-right: 5px;
     padding: 20px;
     /*margin-bottom: 10px;*/
+<<<<<<< HEAD
     background-color: #adb5bd;
     padding: 20px;
     
@@ -45,6 +72,14 @@ body {
 
 
 
+=======
+    /*background-color: #adb5bd;*/
+     background-color: #e6ccb2 !important;
+     justify-content: space-between;
+     margin: 15px;
+    
+     
+>>>>>>> master
 }
 
 .btn {
@@ -76,8 +111,14 @@ body {
 
 }
 
+<<<<<<< HEAD
 .card.title {
     background-color: black;
+=======
+.navbar{
+   /*text-color: tan;*/
+   background-color: #B08968;
+>>>>>>> master
 }
 
 .navbar {

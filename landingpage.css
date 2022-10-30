@@ -49,18 +49,29 @@ main{
 .carouselimg{
     height:500px;
 }
+<<<<<<< HEAD
+
+.splitpage{
+    height:100px;
+    width:100%;
+}
+=======
+>>>>>>> master
 
 .splitpage{
     height:100px;
     width:100%;
 }
 
-
 .showcase-img{
     background-repeat: no-repeat;
     background-size: 100%
 }
 
+<<<<<<< HEAD
 .desc-img{
     
 }
+=======
+.desc-img{
+>>>>>>> master
