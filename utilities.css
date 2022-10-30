@@ -12,18 +12,24 @@ body {
     justify-content: flex-end !important;
 }
 
-nav{
+.nav{
     background-color: #8F2D56;
 }
 
-#navbarSupportedContent {
-    padding-right: 3%;
+.navbar-brand{
+        font-size: 1.5em;
+}
+
+.nav>a{
+        font-size: 1em; 
 }
 
 .dove{
+    display: inline;
     color: white;
     width: 4%;
     padding-left: 1%;
+    margin-right: 4%;
 }
 
 
