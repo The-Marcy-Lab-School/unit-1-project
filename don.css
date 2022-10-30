@@ -1,16 +1,22 @@
 body {
     background-color: #DDB892;
     font-size: larger;
+    /*font-family: lead;*/
     /*margin: 3rem;*/
     /*padding: 50px;*/
-    margin: 10px;
+    /*margin: 10px;*/
     column-gap: 20px;
+    margin: 0% !important;
 
 
 
 
 }
 
+.img-1 {
+    height: 250px;
+    width: 250px;
+}
 
 
 .card-body {
@@ -88,7 +94,7 @@ body {
         flex-direction: column;
         flex-wrap: wrap;
         min-width: auto;
-        
+
 
     }
 
@@ -104,10 +110,10 @@ body {
         display: block !important;
         /*width: 100vw;*/
     }
-    
-    body{
+
+    body {
         width: 100vw;
-        
+
     }
 
 }
