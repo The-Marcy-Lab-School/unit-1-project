@@ -1,6 +1,14 @@
-header,
+
 main,
 footer {
+    margin: 0%;
+    font-family: Georgia, serif;
+    background-color: #8f2d56;
+
+}
+
+header{
+    padding: 1rem 0rem;
     margin: 0%;
     font-family: Georgia, serif;
     background-color: #8f2d56;
