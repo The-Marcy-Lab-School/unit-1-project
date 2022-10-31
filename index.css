@@ -380,4 +380,120 @@ ul>li{
   transition: 0.3s;
 }
 
-  
+  .community-main{
+  margin-top: 150px;
+}
+
+#community-box{
+    margin: 20px auto;
+    padding: 0 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;  
+}
+
+#title-c{
+    font-weight:bold;
+}
+
+#community-title{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+#donating-title{
+    font-weight: bold;
+    font-size: 28px;
+    margin-top:20px;
+}
+#donation-options{
+    padding-bottom: 50px;
+}
+#donation1{
+    padding:20px 0;
+}
+
+#donation1 >img{
+    max-width: 270px;
+    
+}
+
+#donation2{
+    padding:10px 0;
+}
+
+#donation2 > img{
+    max-width:160px;
+}
+
+#voting> h2{
+    font-weight:bold;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+#voting>img{
+    max-width:300px;
+    
+}
+
+#voting-button{
+      font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 35px 10px 35px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #d4dccd;
+    background: #6b717e;
+    border: 2px solid #6b717e;
+    margin-bottom: 30px;
+    margin-top:15px;
+}
+.faq-main{
+  margin-top:125px;
+}
+#faq-box{
+    margin: 20px auto;
+    padding: 0 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;  
+}
+
+#faq-title{
+    padding:20px;
+    font-weight: bold;
+}
+
+#faq-accordion{
+    padding-bottom: 40px;
+}
+
+#faq-form{
+    margin: 20px auto;
+    padding: 0 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    max-width: 600px;
+    
+}
+#faq-form-title{
+    margin-top:20px;
+    font-weight:bold;
+}
+#faq-form-label{
+    font-weight: 400;
+}
+
+#questions-text-field{
+    min-width: 100px;
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+#faq-submit-button{
+    max-width:100px;
+    margin-bottom:30px;
+}
+
