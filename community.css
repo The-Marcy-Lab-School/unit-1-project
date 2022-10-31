@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container{
+    max-width: 2000px;
+    width: 100%;
+    margin: 150px auto;
+    
+    padding: 20px;
+    background-color:lightgrey;
+}
+
+ul {
+    list-style: none;
+}
+
+.col-sm-3{
+    padding-top:100px;
+}
+
+.col-md-4 > img{
+    max-height: 200px;
+    max-width: 300px;
+}
+
+/*.nav-link.active{*/
+/*    font-weight: bold;*/
+/*}*/
