@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+header {
+    background-color: #8f2d56;
+    padding: 1.35rem 0%;
+    font-family: Georgia, serif;
+}
+
+.navbar-toggler {
+
+    justify-content: flex-end !important;
+}
+
+.nav {
+    background-color: #8F2D56;
+    padding: 2% 5%;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.nav>a {
+    font-size: 1em;
+}
+
+.dove {
+    display: inline;
+    color: white;
+    width: 4%;
+    padding-left: 1%;
+    margin-right: 4%;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-color: #FFBC42;
+    color: darkslategray;
+    padding: 4% 0%;
+    font-family: Georgia, serif;
+
+}
+
+.video-container {
+    padding: 5% 0%;
+    display: flex;
+    justify-content: center;
+    background-color: #D81159;
+}
+
+.edu-video {
+    max-width: 100%;
+}
+
+.lower-three {
+    background-color: #8F2D56;
+    color: white;
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 1.55em
+}
+
+.photo-one {
+    max-width: 100%;
+}
+
+.row {
+    padding: 25px;
+}
+
+
+
+
+.row-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.row-two {
+    background-color: #D81159;
+
+
+}
+
+.row-three {
+    background-color: #FFBC42;
+    color: darkslategray;
+}
+
+.photo-two {
+    max-width: 100%;
+}
+
+.photo-three {
+
+    max-width: 100%;
+
+}
+
+.footer {
+    background-color: #006BA6;
+    padding: 3% 0%;
+}
+
+.dove-bottom {
+    color: white;
+    padding: 2% 0% 0% 20%;
+
+}
+
+.footer-contact {
+    color: white;
+    text-align: right;
+    padding-right: 8%;
+}
+
+.footer-contact>a {
+    text-decoration: none;
+    color: white;
+    padding-right: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: medium;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row-image {
+        width: 80% !important;
+    }
+
+    img {
+        width: 100%;
+    }
+
+}
