@@ -6,7 +6,10 @@ body {
     background: rgb(2,0,36);
 background: linear-gradient(169deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 39%, rgba(0,212,255,1) 100%);
 }
-
+#topic{
+  font-size: 48px;
+  font-weight:600px;
+}
 #row h1{
   margin: 0 0 10px 0;
     font-size: 48px;
@@ -21,11 +24,9 @@ background: linear-gradient(169deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 39%, rg
     font-size: 24px;
 }
 #enter-button{
-  
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 14px;
     display: inline-block;
     padding: 10px 35px 10px 35px;
     border-radius: 4px;
@@ -33,6 +34,7 @@ background: linear-gradient(169deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 39%, rg
     color: #d4dccd;
     background: #6b717e;
     border: 2px solid #6b717e;
+    text-decoration:none;
 }
 #title-c{
   color: #f8f9fa;
@@ -41,22 +43,18 @@ background: linear-gradient(169deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 39%, rg
 #bottom-link{
   color:#f8f9fa;
   text-decoration:none;
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
-  padding: 0 3px;
+  padding: 0 4px;
 }
 #marcy-link{
   color:#f8f9fa;
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
 }
-#topic{
-  font-size: 48px;
-  font-weight:600px;
-}
-.section-title h2{
-  color: #f8f9fa;
-  font-size: 24px;
+
+div {
+    display: block;
 }
 a:hover{
     color:#6b717e;
@@ -244,9 +242,121 @@ ul>li{
   margin-top: 150px;
 }
 
+#community-box{
+    margin: 20px auto;
+    padding: 0 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;  
+}
+
+#title-c{
+    font-weight:bold;
+}
+
+#community-title{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+#donating-title{
+    font-weight: bold;
+    font-size: 28px;
+    margin-top:20px;
+}
+#donation-options{
+    padding-bottom: 50px;
+}
+#donation1{
+    padding:20px 0;
+}
+
+#donation1 >img{
+    max-width: 270px;
+    
+}
+
+#donation2{
+    padding:10px 0;
+}
+
+#donation2 > img{
+    max-width:160px;
+}
+
+#voting> h2{
+    font-weight:bold;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+#voting>img{
+    max-width:300px;
+    
+}
+
+#voting-button{
+      font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 35px 10px 35px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #d4dccd;
+    background: #6b717e;
+    border: 2px solid #6b717e;
+    margin-bottom: 30px;
+    margin-top:15px;
+}
 .faq-main{
   margin-top:125px;
 }
+#faq-box{
+    margin: 20px auto;
+    padding: 0 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;  
+}
+
+#faq-title{
+    padding:20px;
+    font-weight: bold;
+}
+
+#faq-accordion{
+    padding-bottom: 40px;
+}
+
+#faq-form{
+    margin: 20px auto;
+    padding: 0 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    max-width: 600px;
+    
+}
+#faq-form-title{
+    margin-top:20px;
+    font-weight:bold;
+}
+#faq-form-label{
+    font-weight: 400;
+}
+
+#questions-text-field{
+    min-width: 100px;
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+#faq-submit-button{
+    max-width:100px;
+    margin-bottom:30px;
+}
+
+
+
 
 #team-main {
   margin-top: 150px;
@@ -320,52 +430,7 @@ ul>li{
   font-size: 18px;
   line-height: 1;
 }
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-#footer .footer-top .footer-links ul a {
-  color: #fff;
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-#footer .footer-top .footer-links ul a:hover {
-  color: efaac4a;
-}
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #ffc4d1;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-}
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: efaac4a;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #fff;
-}
+
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
